@@ -1,0 +1,16 @@
+D:\Work_Git\CSharp_Fundamentals\06 - Exercise\BasicSyntaxConditionalStatementsAndLoops\Age\bin\Debug\net5.0\Age.exe
+D:\Work_Git\CSharp_Fundamentals\06 - Exercise\BasicSyntaxConditionalStatementsAndLoops\Age\bin\Debug\net5.0\Age.deps.json
+D:\Work_Git\CSharp_Fundamentals\06 - Exercise\BasicSyntaxConditionalStatementsAndLoops\Age\bin\Debug\net5.0\Age.runtimeconfig.json
+D:\Work_Git\CSharp_Fundamentals\06 - Exercise\BasicSyntaxConditionalStatementsAndLoops\Age\bin\Debug\net5.0\Age.runtimeconfig.dev.json
+D:\Work_Git\CSharp_Fundamentals\06 - Exercise\BasicSyntaxConditionalStatementsAndLoops\Age\bin\Debug\net5.0\Age.dll
+D:\Work_Git\CSharp_Fundamentals\06 - Exercise\BasicSyntaxConditionalStatementsAndLoops\Age\bin\Debug\net5.0\Age.pdb
+D:\Work_Git\CSharp_Fundamentals\06 - Exercise\BasicSyntaxConditionalStatementsAndLoops\Age\obj\Debug\net5.0\Age.csproj.AssemblyReference.cache
+D:\Work_Git\CSharp_Fundamentals\06 - Exercise\BasicSyntaxConditionalStatementsAndLoops\Age\obj\Debug\net5.0\Age.GeneratedMSBuildEditorConfig.editorconfig
+D:\Work_Git\CSharp_Fundamentals\06 - Exercise\BasicSyntaxConditionalStatementsAndLoops\Age\obj\Debug\net5.0\Age.AssemblyInfoInputs.cache
+D:\Work_Git\CSharp_Fundamentals\06 - Exercise\BasicSyntaxConditionalStatementsAndLoops\Age\obj\Debug\net5.0\Age.AssemblyInfo.cs
+D:\Work_Git\CSharp_Fundamentals\06 - Exercise\BasicSyntaxConditionalStatementsAndLoops\Age\obj\Debug\net5.0\Age.csproj.CoreCompileInputs.cache
+D:\Work_Git\CSharp_Fundamentals\06 - Exercise\BasicSyntaxConditionalStatementsAndLoops\Age\obj\Debug\net5.0\Age.dll
+D:\Work_Git\CSharp_Fundamentals\06 - Exercise\BasicSyntaxConditionalStatementsAndLoops\Age\obj\Debug\net5.0\refint\Age.dll
+D:\Work_Git\CSharp_Fundamentals\06 - Exercise\BasicSyntaxConditionalStatementsAndLoops\Age\obj\Debug\net5.0\Age.pdb
+D:\Work_Git\CSharp_Fundamentals\06 - Exercise\BasicSyntaxConditionalStatementsAndLoops\Age\obj\Debug\net5.0\Age.genruntimeconfig.cache
+D:\Work_Git\CSharp_Fundamentals\06 - Exercise\BasicSyntaxConditionalStatementsAndLoops\Age\obj\Debug\net5.0\ref\Age.dll
