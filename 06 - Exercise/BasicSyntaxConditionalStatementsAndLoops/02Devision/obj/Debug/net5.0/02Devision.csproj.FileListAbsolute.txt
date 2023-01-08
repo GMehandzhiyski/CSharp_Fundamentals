@@ -1,0 +1,16 @@
+D:\Work_Git\CSharp_Fundamentals\06 - Exercise\BasicSyntaxConditionalStatementsAndLoops\02Devision\bin\Debug\net5.0\02Devision.exe
+D:\Work_Git\CSharp_Fundamentals\06 - Exercise\BasicSyntaxConditionalStatementsAndLoops\02Devision\bin\Debug\net5.0\02Devision.deps.json
+D:\Work_Git\CSharp_Fundamentals\06 - Exercise\BasicSyntaxConditionalStatementsAndLoops\02Devision\bin\Debug\net5.0\02Devision.runtimeconfig.json
+D:\Work_Git\CSharp_Fundamentals\06 - Exercise\BasicSyntaxConditionalStatementsAndLoops\02Devision\bin\Debug\net5.0\02Devision.runtimeconfig.dev.json
+D:\Work_Git\CSharp_Fundamentals\06 - Exercise\BasicSyntaxConditionalStatementsAndLoops\02Devision\bin\Debug\net5.0\02Devision.dll
+D:\Work_Git\CSharp_Fundamentals\06 - Exercise\BasicSyntaxConditionalStatementsAndLoops\02Devision\bin\Debug\net5.0\02Devision.pdb
+D:\Work_Git\CSharp_Fundamentals\06 - Exercise\BasicSyntaxConditionalStatementsAndLoops\02Devision\obj\Debug\net5.0\02Devision.csproj.AssemblyReference.cache
+D:\Work_Git\CSharp_Fundamentals\06 - Exercise\BasicSyntaxConditionalStatementsAndLoops\02Devision\obj\Debug\net5.0\02Devision.GeneratedMSBuildEditorConfig.editorconfig
+D:\Work_Git\CSharp_Fundamentals\06 - Exercise\BasicSyntaxConditionalStatementsAndLoops\02Devision\obj\Debug\net5.0\02Devision.AssemblyInfoInputs.cache
+D:\Work_Git\CSharp_Fundamentals\06 - Exercise\BasicSyntaxConditionalStatementsAndLoops\02Devision\obj\Debug\net5.0\02Devision.AssemblyInfo.cs
+D:\Work_Git\CSharp_Fundamentals\06 - Exercise\BasicSyntaxConditionalStatementsAndLoops\02Devision\obj\Debug\net5.0\02Devision.csproj.CoreCompileInputs.cache
+D:\Work_Git\CSharp_Fundamentals\06 - Exercise\BasicSyntaxConditionalStatementsAndLoops\02Devision\obj\Debug\net5.0\02Devision.dll
+D:\Work_Git\CSharp_Fundamentals\06 - Exercise\BasicSyntaxConditionalStatementsAndLoops\02Devision\obj\Debug\net5.0\refint\02Devision.dll
+D:\Work_Git\CSharp_Fundamentals\06 - Exercise\BasicSyntaxConditionalStatementsAndLoops\02Devision\obj\Debug\net5.0\02Devision.pdb
+D:\Work_Git\CSharp_Fundamentals\06 - Exercise\BasicSyntaxConditionalStatementsAndLoops\02Devision\obj\Debug\net5.0\02Devision.genruntimeconfig.cache
+D:\Work_Git\CSharp_Fundamentals\06 - Exercise\BasicSyntaxConditionalStatementsAndLoops\02Devision\obj\Debug\net5.0\ref\02Devision.dll
