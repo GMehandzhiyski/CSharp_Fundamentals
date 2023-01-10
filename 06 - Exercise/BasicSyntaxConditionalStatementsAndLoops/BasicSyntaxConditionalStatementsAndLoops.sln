@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Age", "Age\Age.csproj", "{5
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02Devision", "02Devision\02Devision.csproj", "{934C1314-AACD-4210-B363-C0442829E4B5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vacation", "Vacation\Vacation.csproj", "{CD64ACAC-EE61-4837-BFDD-985008474933}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{934C1314-AACD-4210-B363-C0442829E4B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{934C1314-AACD-4210-B363-C0442829E4B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{934C1314-AACD-4210-B363-C0442829E4B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD64ACAC-EE61-4837-BFDD-985008474933}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD64ACAC-EE61-4837-BFDD-985008474933}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD64ACAC-EE61-4837-BFDD-985008474933}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD64ACAC-EE61-4837-BFDD-985008474933}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

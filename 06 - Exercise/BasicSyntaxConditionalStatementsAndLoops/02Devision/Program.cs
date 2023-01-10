@@ -34,7 +34,7 @@ namespace _02Devision
                 Console.WriteLine($"Not divisible");
                 return;
             }
-                Console.WriteLine($"The number is divisible by {magicNumber}.");
+                Console.WriteLine($"The number is divisible by {magicNumber}");
         }
     }
 }
