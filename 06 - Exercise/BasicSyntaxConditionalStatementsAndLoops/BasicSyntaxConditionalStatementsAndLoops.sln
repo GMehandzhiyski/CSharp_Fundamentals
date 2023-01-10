@@ -7,9 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicSyntaxConditionalState
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Age", "Age\Age.csproj", "{58C4398E-7714-47B8-9193-B5E31AC52E83}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02Devision", "02Devision\02Devision.csproj", "{934C1314-AACD-4210-B363-C0442829E4B5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02Devision", "02Devision\02Devision.csproj", "{934C1314-AACD-4210-B363-C0442829E4B5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vacation", "Vacation\Vacation.csproj", "{CD64ACAC-EE61-4837-BFDD-985008474933}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vacation", "Vacation\Vacation.csproj", "{CD64ACAC-EE61-4837-BFDD-985008474933}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintAndSum", "PrintAndSum\PrintAndSum.csproj", "{B77D865F-A85B-4863-9E0D-1468B255AE2B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{CD64ACAC-EE61-4837-BFDD-985008474933}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CD64ACAC-EE61-4837-BFDD-985008474933}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CD64ACAC-EE61-4837-BFDD-985008474933}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B77D865F-A85B-4863-9E0D-1468B255AE2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B77D865F-A85B-4863-9E0D-1468B255AE2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B77D865F-A85B-4863-9E0D-1468B255AE2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B77D865F-A85B-4863-9E0D-1468B255AE2B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
