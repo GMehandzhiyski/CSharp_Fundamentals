@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html land="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Test Page Mehi</title>
+        <style>
+            span{
+                background:lightcoral
+            }
+            h1{
+                background:lightskyblue
+            }
+           
+        </style>
+        <style>
+             #customers {
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+            }
+
+            #customers td, #customers th {
+            border: 1px solid #ddd;
+            padding: 8px;
+            }
+
+            #customers tr:nth-child(even){background-color: #f2f2f2;}
+
+            #customers tr:hover {background-color: #ddd;}
+
+            #customers th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: #04AA6D;
+            color: white;
+            }
+ 
+        </style>
+    </head>
+    <body>
+        <nav> 
+        <h1 style="font-size: 2.5em"> Electronic components</h1>
+        <img src="LogoChip.jpg" alt="Nooo net"/>
+        </nav>
+        <header>
+            <span style="font-size: 1.5em">All Products</span>
+            <span></span>
+            <span style="font-size: 1.5em"> Manufacturers</span>
+            <span></span>
+            <span style="font-size: 1.5em"> Resurces</span>
+        </header>
+        <div>
+            <main> News
+             <aside> 
+                    <form>
+                     <label for="fullName">Name</label>
+                    </form>
+                </aside>
+                <section>
+                     <article>NEW</article>
+                        <ul>
+                            <li>Resitors</li>
+                            <li>Capacitors</li>
+                         </ul>
+                         <ol>
+                             <ol>Connectors</ol>
+                             <ol>Powers</ol>
+                         </ol>
+                </section>
+            </main>
+        </div>
+        <footer> 
+            <span>blvd. Iztochen 13</span>
+            <span></span>
+            <span>info@elcomponents</span>
+            <span></span>
+            <span>tel: +359000220022</span>
+        </footer>
+        <table id="customers">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th></th>
+                    <th>Age</th>
+                </tr>   
+            </thead>
+                <tbody>
+                 <tr>   
+                    <td>Petyr</td>
+                    <td></td>
+                    <td>23</td>
+                 </tr>
+                 <tr>   
+                    <td>Georgi</td>
+                    <td></td>
+                    <td>25</td>
+                 </tr>
+                </tbody>
+        </table>    
+        <form>
+            <label for="fullName">Full Name</label>
+            <input type="text" id="fullName" name="fullName">
+
+            <label for="language">language</label>
+            <select id="language">
+                <option>BG</option>
+                <option>EN</option>
+                <option>DE</option>
+            </select>
+
+            <label for="knowladge">Basic Lavel</label>
+            <input type="checkbox" id="knowladge" name="language" value="yes">
+            <button type="submit">Submit</button>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,16 @@
+D:\Work_Git\CSharp_Fundamentals\08 - DataTypes and Variables\01-Lecture\Data Types and Variables\Data Types and Variables\Data Types and Variables\bin\Debug\net5.0\Data Types and Variables.exe
+D:\Work_Git\CSharp_Fundamentals\08 - DataTypes and Variables\01-Lecture\Data Types and Variables\Data Types and Variables\Data Types and Variables\bin\Debug\net5.0\Data Types and Variables.deps.json
+D:\Work_Git\CSharp_Fundamentals\08 - DataTypes and Variables\01-Lecture\Data Types and Variables\Data Types and Variables\Data Types and Variables\bin\Debug\net5.0\Data Types and Variables.runtimeconfig.json
+D:\Work_Git\CSharp_Fundamentals\08 - DataTypes and Variables\01-Lecture\Data Types and Variables\Data Types and Variables\Data Types and Variables\bin\Debug\net5.0\Data Types and Variables.runtimeconfig.dev.json
+D:\Work_Git\CSharp_Fundamentals\08 - DataTypes and Variables\01-Lecture\Data Types and Variables\Data Types and Variables\Data Types and Variables\bin\Debug\net5.0\Data Types and Variables.dll
+D:\Work_Git\CSharp_Fundamentals\08 - DataTypes and Variables\01-Lecture\Data Types and Variables\Data Types and Variables\Data Types and Variables\bin\Debug\net5.0\Data Types and Variables.pdb
+D:\Work_Git\CSharp_Fundamentals\08 - DataTypes and Variables\01-Lecture\Data Types and Variables\Data Types and Variables\Data Types and Variables\obj\Debug\net5.0\Data Types and Variables.csproj.AssemblyReference.cache
+D:\Work_Git\CSharp_Fundamentals\08 - DataTypes and Variables\01-Lecture\Data Types and Variables\Data Types and Variables\Data Types and Variables\obj\Debug\net5.0\Data Types and Variables.GeneratedMSBuildEditorConfig.editorconfig
+D:\Work_Git\CSharp_Fundamentals\08 - DataTypes and Variables\01-Lecture\Data Types and Variables\Data Types and Variables\Data Types and Variables\obj\Debug\net5.0\Data Types and Variables.AssemblyInfoInputs.cache
+D:\Work_Git\CSharp_Fundamentals\08 - DataTypes and Variables\01-Lecture\Data Types and Variables\Data Types and Variables\Data Types and Variables\obj\Debug\net5.0\Data Types and Variables.AssemblyInfo.cs
+D:\Work_Git\CSharp_Fundamentals\08 - DataTypes and Variables\01-Lecture\Data Types and Variables\Data Types and Variables\Data Types and Variables\obj\Debug\net5.0\Data Types and Variables.csproj.CoreCompileInputs.cache
+D:\Work_Git\CSharp_Fundamentals\08 - DataTypes and Variables\01-Lecture\Data Types and Variables\Data Types and Variables\Data Types and Variables\obj\Debug\net5.0\Data Types and Variables.dll
+D:\Work_Git\CSharp_Fundamentals\08 - DataTypes and Variables\01-Lecture\Data Types and Variables\Data Types and Variables\Data Types and Variables\obj\Debug\net5.0\refint\Data Types and Variables.dll
+D:\Work_Git\CSharp_Fundamentals\08 - DataTypes and Variables\01-Lecture\Data Types and Variables\Data Types and Variables\Data Types and Variables\obj\Debug\net5.0\Data Types and Variables.pdb
+D:\Work_Git\CSharp_Fundamentals\08 - DataTypes and Variables\01-Lecture\Data Types and Variables\Data Types and Variables\Data Types and Variables\obj\Debug\net5.0\Data Types and Variables.genruntimeconfig.cache
+D:\Work_Git\CSharp_Fundamentals\08 - DataTypes and Variables\01-Lecture\Data Types and Variables\Data Types and Variables\Data Types and Variables\obj\Debug\net5.0\ref\Data Types and Variables.dll
