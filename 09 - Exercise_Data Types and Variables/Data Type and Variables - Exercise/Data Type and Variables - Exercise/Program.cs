@@ -1,13 +1,12 @@
 ﻿using System;
 
-namespace Data_Types_and_Variables
+namespace Data_Type_and_Variables___Exercise
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            byte iValue = 200;
-            Console.WriteLine($"iValue = {iValue}");
+            Console.WriteLine("Hello World!");
         }
     }
 }
