@@ -1,0 +1,16 @@
+D:\Work_Git\CSharp_Fundamentals\09 - Exercise_Data Types and Variables\Data Type and Variables - Exercise\SumDigits\bin\Debug\net5.0\SumDigits.exe
+D:\Work_Git\CSharp_Fundamentals\09 - Exercise_Data Types and Variables\Data Type and Variables - Exercise\SumDigits\bin\Debug\net5.0\SumDigits.deps.json
+D:\Work_Git\CSharp_Fundamentals\09 - Exercise_Data Types and Variables\Data Type and Variables - Exercise\SumDigits\bin\Debug\net5.0\SumDigits.runtimeconfig.json
+D:\Work_Git\CSharp_Fundamentals\09 - Exercise_Data Types and Variables\Data Type and Variables - Exercise\SumDigits\bin\Debug\net5.0\SumDigits.runtimeconfig.dev.json
+D:\Work_Git\CSharp_Fundamentals\09 - Exercise_Data Types and Variables\Data Type and Variables - Exercise\SumDigits\bin\Debug\net5.0\SumDigits.dll
+D:\Work_Git\CSharp_Fundamentals\09 - Exercise_Data Types and Variables\Data Type and Variables - Exercise\SumDigits\bin\Debug\net5.0\SumDigits.pdb
+D:\Work_Git\CSharp_Fundamentals\09 - Exercise_Data Types and Variables\Data Type and Variables - Exercise\SumDigits\obj\Debug\net5.0\SumDigits.csproj.AssemblyReference.cache
+D:\Work_Git\CSharp_Fundamentals\09 - Exercise_Data Types and Variables\Data Type and Variables - Exercise\SumDigits\obj\Debug\net5.0\SumDigits.GeneratedMSBuildEditorConfig.editorconfig
+D:\Work_Git\CSharp_Fundamentals\09 - Exercise_Data Types and Variables\Data Type and Variables - Exercise\SumDigits\obj\Debug\net5.0\SumDigits.AssemblyInfoInputs.cache
+D:\Work_Git\CSharp_Fundamentals\09 - Exercise_Data Types and Variables\Data Type and Variables - Exercise\SumDigits\obj\Debug\net5.0\SumDigits.AssemblyInfo.cs
+D:\Work_Git\CSharp_Fundamentals\09 - Exercise_Data Types and Variables\Data Type and Variables - Exercise\SumDigits\obj\Debug\net5.0\SumDigits.csproj.CoreCompileInputs.cache
+D:\Work_Git\CSharp_Fundamentals\09 - Exercise_Data Types and Variables\Data Type and Variables - Exercise\SumDigits\obj\Debug\net5.0\SumDigits.dll
+D:\Work_Git\CSharp_Fundamentals\09 - Exercise_Data Types and Variables\Data Type and Variables - Exercise\SumDigits\obj\Debug\net5.0\refint\SumDigits.dll
+D:\Work_Git\CSharp_Fundamentals\09 - Exercise_Data Types and Variables\Data Type and Variables - Exercise\SumDigits\obj\Debug\net5.0\SumDigits.pdb
+D:\Work_Git\CSharp_Fundamentals\09 - Exercise_Data Types and Variables\Data Type and Variables - Exercise\SumDigits\obj\Debug\net5.0\SumDigits.genruntimeconfig.cache
+D:\Work_Git\CSharp_Fundamentals\09 - Exercise_Data Types and Variables\Data Type and Variables - Exercise\SumDigits\obj\Debug\net5.0\ref\SumDigits.dll

@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Data Type and Variables - E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegerOperations", "IntegerOperations\IntegerOperations.csproj", "{0D2C72E5-0DC7-41EB-83FC-C2C4F72E62B0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumDigits", "SumDigits\SumDigits.csproj", "{4D533193-D6A4-4CD6-A4A6-876BA2CFEF96}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{0D2C72E5-0DC7-41EB-83FC-C2C4F72E62B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D2C72E5-0DC7-41EB-83FC-C2C4F72E62B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D2C72E5-0DC7-41EB-83FC-C2C4F72E62B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D533193-D6A4-4CD6-A4A6-876BA2CFEF96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D533193-D6A4-4CD6-A4A6-876BA2CFEF96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D533193-D6A4-4CD6-A4A6-876BA2CFEF96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D533193-D6A4-4CD6-A4A6-876BA2CFEF96}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

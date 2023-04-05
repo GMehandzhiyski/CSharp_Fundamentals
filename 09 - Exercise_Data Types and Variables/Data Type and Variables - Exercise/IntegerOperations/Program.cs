@@ -6,12 +6,12 @@ namespace IntegerOperations
     {
         static void Main(string[] args)
         {
-            int firstNumber = int.Parse(Console.ReadLine());
-            int secondNumber = int.Parse(Console.ReadLine());
-            int thirdNumber = int.Parse(Console.ReadLine());
-            int fourthNumber = int.Parse(Console.ReadLine());
+            long firstNumber = int.Parse(Console.ReadLine());
+            long secondNumber = int.Parse(Console.ReadLine());
+            long thirdNumber = int.Parse(Console.ReadLine());
+            long fourthNumber = int.Parse(Console.ReadLine());
 
-            int result = ((firstNumber + secondNumber) / thirdNumber) * fourthNumber;
+            long result = ((firstNumber + secondNumber) / thirdNumber) * fourthNumber;
             Console.WriteLine(result);
         }
     }
