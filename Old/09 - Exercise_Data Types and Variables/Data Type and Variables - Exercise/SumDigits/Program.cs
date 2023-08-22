@@ -6,6 +6,7 @@ namespace SumDigits
     {
         static void Main(string[] args)
         {
+           
             int number = int.Parse(Console.ReadLine());
             int sum = 0;
 
@@ -17,7 +18,6 @@ namespace SumDigits
             }
 
             Console.WriteLine(sum); 
-
         }
     }
 }
