@@ -1,0 +1,15 @@
+D:\Work_Git\CSharp_Fundamentals\00 - testProgram\superProgram\superProgram\bin\Debug\net6.0\superProgram.exe
+D:\Work_Git\CSharp_Fundamentals\00 - testProgram\superProgram\superProgram\bin\Debug\net6.0\superProgram.deps.json
+D:\Work_Git\CSharp_Fundamentals\00 - testProgram\superProgram\superProgram\bin\Debug\net6.0\superProgram.runtimeconfig.json
+D:\Work_Git\CSharp_Fundamentals\00 - testProgram\superProgram\superProgram\bin\Debug\net6.0\superProgram.dll
+D:\Work_Git\CSharp_Fundamentals\00 - testProgram\superProgram\superProgram\bin\Debug\net6.0\superProgram.pdb
+D:\Work_Git\CSharp_Fundamentals\00 - testProgram\superProgram\superProgram\obj\Debug\net6.0\superProgram.csproj.AssemblyReference.cache
+D:\Work_Git\CSharp_Fundamentals\00 - testProgram\superProgram\superProgram\obj\Debug\net6.0\superProgram.GeneratedMSBuildEditorConfig.editorconfig
+D:\Work_Git\CSharp_Fundamentals\00 - testProgram\superProgram\superProgram\obj\Debug\net6.0\superProgram.AssemblyInfoInputs.cache
+D:\Work_Git\CSharp_Fundamentals\00 - testProgram\superProgram\superProgram\obj\Debug\net6.0\superProgram.AssemblyInfo.cs
+D:\Work_Git\CSharp_Fundamentals\00 - testProgram\superProgram\superProgram\obj\Debug\net6.0\superProgram.csproj.CoreCompileInputs.cache
+D:\Work_Git\CSharp_Fundamentals\00 - testProgram\superProgram\superProgram\obj\Debug\net6.0\superProgram.dll
+D:\Work_Git\CSharp_Fundamentals\00 - testProgram\superProgram\superProgram\obj\Debug\net6.0\refint\superProgram.dll
+D:\Work_Git\CSharp_Fundamentals\00 - testProgram\superProgram\superProgram\obj\Debug\net6.0\superProgram.pdb
+D:\Work_Git\CSharp_Fundamentals\00 - testProgram\superProgram\superProgram\obj\Debug\net6.0\superProgram.genruntimeconfig.cache
+D:\Work_Git\CSharp_Fundamentals\00 - testProgram\superProgram\superProgram\obj\Debug\net6.0\ref\superProgram.dll
