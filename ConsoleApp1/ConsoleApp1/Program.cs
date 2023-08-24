@@ -4,7 +4,16 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+         
+            int numberValue = int.Parse(Console.ReadLine());
+
+            while (numberValue > 0)
+            {
+                int digit = numberValue % 10;
+                numberValue = numberValue / 10;
+
+                Console.WriteLine(digit);   
+            }
         }
     }
 }
