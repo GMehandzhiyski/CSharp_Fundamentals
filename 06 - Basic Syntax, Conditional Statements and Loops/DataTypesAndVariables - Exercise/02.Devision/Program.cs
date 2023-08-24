@@ -31,7 +31,7 @@ namespace _02.Devision
             }
             else 
             {
-                Console.WriteLine($"Not devisible");
+                Console.WriteLine($"Not divisible");
             }
 
           
