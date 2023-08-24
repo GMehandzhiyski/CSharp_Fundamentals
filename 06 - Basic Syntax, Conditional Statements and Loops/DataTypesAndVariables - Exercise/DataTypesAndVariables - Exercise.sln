@@ -7,9 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataTypesAndVariables - Exe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.Ages", "01.IntegerOperations\01.Ages.csproj", "{E80B23EB-26A7-4D21-800E-B608B68E392A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.Devision", "02.Devision\02.Devision.csproj", "{E481DB7B-3CED-4309-BB7E-BE3EEF0D2FE6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.Devision", "02.Devision\02.Devision.csproj", "{E481DB7B-3CED-4309-BB7E-BE3EEF0D2FE6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.Vacantion", "03.Vacantion\03.Vacantion.csproj", "{EBD792CC-7F19-4034-9631-624C0E2945D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.Vacantion", "03.Vacantion\03.Vacantion.csproj", "{EBD792CC-7F19-4034-9631-624C0E2945D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintAndSum", "PrintAndSum\PrintAndSum.csproj", "{90386083-6E84-4E02-BC1F-0FB29B73CAE0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{EBD792CC-7F19-4034-9631-624C0E2945D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EBD792CC-7F19-4034-9631-624C0E2945D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EBD792CC-7F19-4034-9631-624C0E2945D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90386083-6E84-4E02-BC1F-0FB29B73CAE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90386083-6E84-4E02-BC1F-0FB29B73CAE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90386083-6E84-4E02-BC1F-0FB29B73CAE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90386083-6E84-4E02-BC1F-0FB29B73CAE0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
