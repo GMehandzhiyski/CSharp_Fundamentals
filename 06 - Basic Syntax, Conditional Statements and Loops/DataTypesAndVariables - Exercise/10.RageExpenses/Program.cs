@@ -1,6 +1,6 @@
 ﻿namespace _10.RageExpenses
 {
-    internal class Program
+    public class Program
     {
         static void Main(string[] args)
         {
