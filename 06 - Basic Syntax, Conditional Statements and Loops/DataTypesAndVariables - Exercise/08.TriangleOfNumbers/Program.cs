@@ -1,6 +1,6 @@
 ﻿namespace _08.TriangleOfNumbers
 {
-    internal class Program
+    public class Program
     {
         static void Main(string[] args)
         {

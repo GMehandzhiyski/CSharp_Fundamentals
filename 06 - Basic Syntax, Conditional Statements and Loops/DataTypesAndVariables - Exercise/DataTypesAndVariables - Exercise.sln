@@ -19,7 +19,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06.StrongNumber", "06.Stron
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07.VendingMachine", "07.VendingMachine\07.VendingMachine.csproj", "{20AB7A6F-51F0-469C-9F24-2EA4E8160D6A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08.TriangleOfNumbers", "08.TriangleOfNumbers\08.TriangleOfNumbers.csproj", "{EADC66D6-97E4-4B4D-8929-35EBAEAA7742}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08.TriangleOfNumbers", "08.TriangleOfNumbers\08.TriangleOfNumbers.csproj", "{EADC66D6-97E4-4B4D-8929-35EBAEAA7742}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09.PadawanEquipment", "09.PadawanEquipment\09.PadawanEquipment.csproj", "{6EB60A08-84DC-4CB9-A90A-EEB508C6A40F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{EADC66D6-97E4-4B4D-8929-35EBAEAA7742}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EADC66D6-97E4-4B4D-8929-35EBAEAA7742}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EADC66D6-97E4-4B4D-8929-35EBAEAA7742}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EB60A08-84DC-4CB9-A90A-EEB508C6A40F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EB60A08-84DC-4CB9-A90A-EEB508C6A40F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EB60A08-84DC-4CB9-A90A-EEB508C6A40F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EB60A08-84DC-4CB9-A90A-EEB508C6A40F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
