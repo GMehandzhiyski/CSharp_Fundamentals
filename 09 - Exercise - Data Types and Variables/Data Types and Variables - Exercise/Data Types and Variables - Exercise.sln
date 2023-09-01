@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.Elevator", "03.Elevator\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.SumOfChars", "04.SumOfChars\04.SumOfChars.csproj", "{1E8DE28D-D3A2-4E0F-955F-0FA37E847F96}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.PrintPartOfTheASCIITable", "05.PrintPartOfTheASCIITable\05.PrintPartOfTheASCIITable.csproj", "{289AEF64-26E0-4466-AD0D-DB6E2E6E2B69}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{1E8DE28D-D3A2-4E0F-955F-0FA37E847F96}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E8DE28D-D3A2-4E0F-955F-0FA37E847F96}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1E8DE28D-D3A2-4E0F-955F-0FA37E847F96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{289AEF64-26E0-4466-AD0D-DB6E2E6E2B69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{289AEF64-26E0-4466-AD0D-DB6E2E6E2B69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{289AEF64-26E0-4466-AD0D-DB6E2E6E2B69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{289AEF64-26E0-4466-AD0D-DB6E2E6E2B69}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

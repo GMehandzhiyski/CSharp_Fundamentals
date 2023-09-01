@@ -16,8 +16,7 @@
                 sum1 += sum;
             }
 
-            Console.WriteLine(sum1);
-
+            Console.WriteLine($"The sum equals: {sum1}");
         }
     }
 }

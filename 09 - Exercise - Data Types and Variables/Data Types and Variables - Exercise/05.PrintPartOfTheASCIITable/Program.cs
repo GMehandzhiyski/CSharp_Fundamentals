@@ -4,7 +4,17 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            int start = int.Parse(Console.ReadLine());
+            int end = int.Parse(Console.ReadLine());
+
+
+            for (int i = start; i <= end; i++)
+            { 
+                char leather = (char) i;
+            
+                  Console.Write($"{leather} ");   
+            }
+
         }
     }
 }
