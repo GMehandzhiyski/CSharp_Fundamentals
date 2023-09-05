@@ -3,19 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34024.191
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data Types and Variables - Exercise", "Data Types and Variables - Exercise\Data Types and Variables - Exercise.csproj", "{C78CF1A3-D951-4531-958E-01D9F706E7E8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Data Types and Variables - Exercise", "Data Types and Variables - Exercise\Data Types and Variables - Exercise.csproj", "{C78CF1A3-D951-4531-958E-01D9F706E7E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.IntegerOperations", "01.IntegerOperations\01.IntegerOperations.csproj", "{5D021528-2E01-4A9A-B41B-B415C5D2D542}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.IntegerOperations", "01.IntegerOperations\01.IntegerOperations.csproj", "{5D021528-2E01-4A9A-B41B-B415C5D2D542}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.SumDigits", "02.SumDigits\02.SumDigits.csproj", "{32E0807C-96F1-4E90-8CA0-3F5FDF6F04CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.SumDigits", "02.SumDigits\02.SumDigits.csproj", "{32E0807C-96F1-4E90-8CA0-3F5FDF6F04CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.Elevator", "03.Elevator\03.Elevator.csproj", "{445FFCC3-FCC6-4297-8FF8-FABFFB6EA385}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.Elevator", "03.Elevator\03.Elevator.csproj", "{445FFCC3-FCC6-4297-8FF8-FABFFB6EA385}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.SumOfChars", "04.SumOfChars\04.SumOfChars.csproj", "{1E8DE28D-D3A2-4E0F-955F-0FA37E847F96}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.SumOfChars", "04.SumOfChars\04.SumOfChars.csproj", "{1E8DE28D-D3A2-4E0F-955F-0FA37E847F96}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.PrintPartOfTheASCIITable", "05.PrintPartOfTheASCIITable\05.PrintPartOfTheASCIITable.csproj", "{289AEF64-26E0-4466-AD0D-DB6E2E6E2B69}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05.PrintPartOfTheASCIITable", "05.PrintPartOfTheASCIITable\05.PrintPartOfTheASCIITable.csproj", "{289AEF64-26E0-4466-AD0D-DB6E2E6E2B69}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.TriolesOfLatinsLatters", "06.TriolesOfLatinsLatters\06.TriolesOfLatinsLatters.csproj", "{1F26E206-C217-4DC9-9916-DC227CD97811}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06.TriolesOfLatinsLatters", "06.TriolesOfLatinsLatters\06.TriolesOfLatinsLatters.csproj", "{1F26E206-C217-4DC9-9916-DC227CD97811}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.WaterOverflow", "07.WaterOverflow\07.WaterOverflow.csproj", "{02A702F4-8428-449C-BB36-71B403719384}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{1F26E206-C217-4DC9-9916-DC227CD97811}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1F26E206-C217-4DC9-9916-DC227CD97811}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1F26E206-C217-4DC9-9916-DC227CD97811}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02A702F4-8428-449C-BB36-71B403719384}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02A702F4-8428-449C-BB36-71B403719384}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02A702F4-8428-449C-BB36-71B403719384}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02A702F4-8428-449C-BB36-71B403719384}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
