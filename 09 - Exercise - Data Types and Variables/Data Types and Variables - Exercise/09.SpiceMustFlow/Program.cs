@@ -1,4 +1,5 @@
-﻿using System.Xml.Serialization;
+﻿using System;
+using System.Xml.Serialization;
 
 namespace _09.SpiceMustFlow
 {
@@ -20,8 +21,19 @@ namespace _09.SpiceMustFlow
 
                 day++; 
             }
-            Console.WriteLine(day);
-            Console.WriteLine(spices - 26);  
+
+            if (startingYield <= 0)
+            {
+                Console.WriteLine(day);
+                Console.WriteLine("0");
+
+            }
+            else
+            {
+                Console.WriteLine(day);
+                Console.WriteLine(spices - 26);
+            }
+
         }
     }
 }
