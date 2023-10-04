@@ -3,7 +3,7 @@ body {
 }
 
 .content {
-    width: 1170;
+    width: 1000px;
     margin: auto;
 }
 header {
@@ -24,4 +24,4 @@ header {
 .navigation a:hover {
     color: #00c7c0;
     text-decoration: none;
-}
+} 
