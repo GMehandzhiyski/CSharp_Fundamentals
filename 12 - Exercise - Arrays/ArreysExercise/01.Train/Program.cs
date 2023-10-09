@@ -12,7 +12,6 @@ namespace _01.Train
             for (int i = 0; i < number; i++)
             {
                 wagon[i] = int.Parse(Console.ReadLine());
-
             }
 
             Console.WriteLine(string.Join(" ",wagon));
