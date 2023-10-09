@@ -4,20 +4,25 @@
     {
         static void Main(string[] args)
         {
-            string[] arreyOne = Console.ReadLine().Split().ToArray();
-            string[] arreyTwo = Console.ReadLine().Split().ToArray();
+            string[] arrayOne = Console.ReadLine().Split().ToArray();
+            string[] arrayTwo = Console.ReadLine().Split().ToArray();
 
-            for (int i = 0; i < arreyOne.Length; i++) 
+            string result = "";
+
+            for (int i = 0; i < arrayTwo.Length; i++) 
             {
     
-                for (int j = 0; j < arreyTwo.Length; j++) 
+                for (int j = 0; j < arrayOne.Length; j++) 
                 {
-                
+                    if (arrayTwo[i] == arrayOne[j])
+                    {
+                        result += arrayTwo[i] + " ";
+                    }
                 
                 }   
             
             }
-
+             Console.WriteLine(result);
 
             //Console.WriteLine(string.Join(" ", arreyOne));
             //Console.WriteLine(string.Join(" ", arreyTwo));
