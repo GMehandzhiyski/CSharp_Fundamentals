@@ -19,6 +19,12 @@ header {
 }
 .navigation а {
     color: #a8b9c0;
+    
+}
+
+a:visited{
+    color: inherit;
+    text-decoration: inherit;
 }
 
 .navigation a:hover {
