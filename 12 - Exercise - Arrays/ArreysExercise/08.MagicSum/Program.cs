@@ -7,7 +7,6 @@
             int[] array = Console.ReadLine().Split().Select(int.Parse).ToArray();
             int sumNumber = int.Parse(Console.ReadLine());
             int counter = 0;
-            string result = "";
 
             for (int i = 0; i < array.Length; i++)
             {
@@ -22,8 +21,6 @@
                 }
 
             }
-
-
 
         }
     }
