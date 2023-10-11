@@ -7,22 +7,24 @@
             int[] array = Console.ReadLine().Split().Select(int.Parse).ToArray();
             int sumNumber = int.Parse(Console.ReadLine());
             int counter = 0;
+            string result = "";
 
-            for (int i = 0; i < array.Length; i++) 
+            for (int i = 0; i < array.Length; i++)
             {
                 for (int j = i + 1; j < array.Length; j++)
                 {
                     if (array[i] + array[j] == sumNumber)
                     {
-                        counter += 1;
-                    
+                        Console.WriteLine($"{array[i]} {array[j]}");
                     }
+
 
                 }
 
             }
 
-            Console.WriteLine(counter);
+
+
         }
     }
 }
