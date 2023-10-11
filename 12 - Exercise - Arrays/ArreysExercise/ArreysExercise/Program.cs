@@ -1,17 +1,24 @@
-﻿namespace ArreysExercise
+﻿using System.Runtime.InteropServices;
+
+namespace ArreysExercise
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            int  String1 =int.Parse(Console.ReadLine());
-            //int String2 = int.Parse(Console.ReadLine());
-            string result = null;
+            int []  String1 = new int[0];
+            int bestValue = 2;
+            int bestCaunter = 3;
 
-            result  = Convert.ToString(String1) ;
-   
-                
-            Console.WriteLine(result);
+
+            for (int i = 0; i < bestCaunter; i++)
+            {
+                String1[i] = bestValue;
+            
+            }
+
+            Console.WriteLine(string.Join(" ", String1));
+            
         }
     }
 }
