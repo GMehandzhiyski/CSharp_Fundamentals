@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
             string inputString = Console.ReadLine();
-            string vowels = "hristo";//"AEIOUaeiou";
+            string vowels = "AEIOUaeiou";
             int value = 0;  
 
 
@@ -13,7 +13,7 @@
             {
                 if (vowels.Contains(c))
                 {
-                    Console.Write(c);
+                    //Console.Write(c);
                     value++;
                 }
             }
