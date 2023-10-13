@@ -12,7 +12,6 @@ namespace _03.CharactersInRange
             int charOneInt = 0;
             int charTwoInt = 0;
 
-            
             if (charOne <= charTwo)
             {
                 charOneInt = (int)charOne;
