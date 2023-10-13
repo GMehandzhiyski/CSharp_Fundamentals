@@ -4,7 +4,21 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            string inputString = Console.ReadLine();
+            string vowels = "hristo";//"AEIOUaeiou";
+            int value = 0;  
+
+
+            foreach (char c in inputString)
+            {
+                if (vowels.Contains(c))
+                {
+                    Console.Write(c);
+                    value++;
+                }
+            }
+
+            Console.WriteLine(value);
         }
     }
 }
