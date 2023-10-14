@@ -9,16 +9,21 @@
 
             double firstNumFactorial = CalculateFactorial(firstNumber);
             double secondNumFactorial = CalculateFactorial(secondNumber);
-            Console.WriteLine($"{firstNumFactorial / secondNumber:f2}");
+            double result = firstNumFactorial / secondNumber;
+
+            Console.WriteLine($"{result:f2}");
 
         }
 
-        private static int CalculateFactorial(int firstNumber)
+        private static double CalculateFactorial(int number)
         {
-            if (firstNumber == 0)
-                return 1;
-            else
-                return firstNumber * CalculateFactorial(firstNumber - 1);
+            double factorial = 1;
+            for (int i = 1; i <= number; i++) 
+            {
+                factorial *= i;
+            }
+
+            return factorial;
         }
       
     }

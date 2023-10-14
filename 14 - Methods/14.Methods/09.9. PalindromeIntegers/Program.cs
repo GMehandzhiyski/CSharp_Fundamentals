@@ -4,7 +4,33 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            string reverseNumber = null;
+            string number = null;
+            while ((number = Console.ReadLine()) != "END")
+            {
+                
+                foreach (char c in number.Reverse())
+                {
+                    reverseNumber += c.ToString();
+                }
+
+                if (reverseNumber == number)
+                {
+                    Console.WriteLine("true");
+                    reverseNumber = null;
+                }
+                else 
+                { 
+                    Console.WriteLine("false");
+                    reverseNumber = null;
+                }
+                //Console.WriteLine(reverseNumber);
+
+            }
+
+
+
+
         }
     }
 }
