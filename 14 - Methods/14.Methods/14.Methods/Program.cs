@@ -4,21 +4,20 @@
     {
         static void Main(string[] args)
         {
-            A();
+            int sumOfDigits = int.Parse(Console.ReadLine());
+            bool isDevide;
+            if (sumOfDigits % 8 == 0)
+            {
+                isDevide = true;
+            }
+            else
+            {
+                isDevide = false;
+            }
 
-        }
-        // как се изкарва Call steck
+            Console.WriteLine(isDevide);
 
-        private static void A()
-        {
-            Console.WriteLine("B");
-            B();
-        }
-
-        private static void B()
-        {
-            Console.WriteLine("b");
-        
+         
         }
     }
 }
