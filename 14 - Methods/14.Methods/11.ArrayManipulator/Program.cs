@@ -49,7 +49,7 @@ namespace _11.ArrayManipulator
                         string evenOrOddLast = (commandArray[2]);
                         LastElementsEvenOrOdd(inputArray, indexCountLast, evenOrOddLast);
                         break;
-
+                    default: continue;
 
 
                 }
@@ -71,7 +71,7 @@ namespace _11.ArrayManipulator
         private static int[] ExchangeArray(int[] inputArray, int index)
         {
             int[] middleArray = new int[inputArray.Length];
-            if (index <= inputArray.Length)
+            if (index >= 0 && index <= inputArray.Length)
             {
 
                 int indexCount = 0;
@@ -101,7 +101,7 @@ namespace _11.ArrayManipulator
         }
         private static void MaxCalcolation(int[] inputArray, string indexMax)
         {
-            int maxIndex = -1;
+            int maxIndex = int.MinValue;
 
             if (indexMax == "even")
             {
@@ -139,7 +139,10 @@ namespace _11.ArrayManipulator
                 }
 
 
-
+            }
+            else 
+            {
+                return;
             }
 
             if (maxIndex >= 0)
@@ -155,7 +158,7 @@ namespace _11.ArrayManipulator
         }
         private static void MinCalcolation(int[] inputArray, string indexMin)
         {
-            int minIndex = -1;
+            int minIndex = int.MinValue;
 
             if (indexMin == "even")
             {
@@ -193,6 +196,10 @@ namespace _11.ArrayManipulator
                 }
 
             }
+            else
+            {
+                return;
+            }
 
             if (minIndex >= 0)
             {
@@ -208,7 +215,7 @@ namespace _11.ArrayManipulator
         private static void FirstElementsEvenOrOdd(int[] inputArray, int indexCountFirst, string evenOrOdd)
         {
             string selectNumberString = string.Empty;
-            if (indexCountFirst <= inputArray.Length)
+            if (indexCountFirst >= 0 && indexCountFirst <= inputArray.Length)
             {
 
                 if (evenOrOdd == "even")
@@ -251,6 +258,10 @@ namespace _11.ArrayManipulator
                         }
                     }
                 }
+                else 
+                {
+                    return;
+                }
 
                 Console.WriteLine($"[{selectNumberString.Trim(' ', ',')}]");
             }
@@ -264,7 +275,7 @@ namespace _11.ArrayManipulator
         }
         private static void LastElementsEvenOrOdd(int[] inputArray, int indexCountLast, string evenOrOddLast)
         {
-            if (indexCountLast <= inputArray.Length)
+            if (indexCountLast >=0 && indexCountLast <= inputArray.Length)
             {
                 string selectNumberString = string.Empty;
                 if (evenOrOddLast == "even")
@@ -308,6 +319,10 @@ namespace _11.ArrayManipulator
                         }
                     }
 
+                }
+                else
+                {
+                    return;
                 }
                 Console.WriteLine($"[{selectNumberString.Trim(' ', ',')}]");
 

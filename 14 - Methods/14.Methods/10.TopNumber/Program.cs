@@ -68,20 +68,3 @@ namespace _10.TopNumber
         }
     }
 }
-/*
-string stringNumber = i.ToString();
-int resultDigits = 0;
-bool isDigitOdd = false;
-for (int j = 0; j < stringNumber.Length; j++)
-{
-    int numberAfterString = int.Parse(stringNumber[j].ToString());
-
-    isDigitOdd = DigitOdd(numberAfterString);
-
-
-    resultDigits += numberAfterString;
-}
-
-return (resultDigits, isDigitOdd);
-//return resultDigits;
-*/
