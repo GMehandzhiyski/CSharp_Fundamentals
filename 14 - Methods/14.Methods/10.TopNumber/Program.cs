@@ -1,58 +1,87 @@
-﻿namespace _10.TopNumber
+﻿using System.Diagnostics.CodeAnalysis;
+
+namespace _10.TopNumber
 {
     internal class Program
     {
         static void Main(string[] args)
         {
             int inputNumber = int.Parse(Console.ReadLine());
-
+            
 
             for (int i = 1; i <= inputNumber; i++)
             {
-                (int resultDigits, bool isDigitOdd) = CalculateSumOfDigidts(i);
-                bool isDivideBy8 = DevideBy8(resultDigits);
+                bool isDevisibleBy8 = DevivisibleBy8(i);
+                bool isNumberOdd = IsNumberOdd(i);
 
-                if (isDivideBy8 && isDigitOdd)
+                if (isDevisibleBy8 && isNumberOdd) 
                 {
                     Console.WriteLine(i);
                 }
-
             }
+
+
+
         }
 
-        private static (int, bool) CalculateSumOfDigidts(int i)
+        private static bool IsNumberOdd(int i)
         {
-            string stringNumber = i.ToString();
-            int resultDigits = 0;
-            bool isDigitOdd = false;
+            string middleNumber = i.ToString();
+            int numberFromString = 0;
+            bool numberIsOdd= false;
 
-            for (int j = 0; j < stringNumber.Length; j++)
+            for (int j = 0; j < middleNumber.Length; j++)
             {
-                isDigitOdd = false;
-                int numberAfterString = int.Parse(stringNumber[j].ToString());
+                numberFromString = int.Parse(middleNumber[j].ToString());
 
-                if (numberAfterString % 2 == 1)
-                {
-                    isDigitOdd = true;
+                if (numberFromString % 2 != 0)
+                { 
+                   numberIsOdd= true;
+                    break;
                 }
-                
 
-                resultDigits += numberAfterString;
             }
-
-            return (resultDigits, isDigitOdd);
-            //return resultDigits;
-
+                return  numberIsOdd;    
         }
-        private static bool DevideBy8(int resultDigits)
+
+        private static bool DevivisibleBy8(int i)
         {
-            bool isDevide = false;
-            if (resultDigits % 8 == 0)
+            bool isDevilbeBy8 = false;  
+            string middleNumber = i.ToString();
+            int sumOfDigits = 0;
+            int numberFromString = 0;
+           
+            for (int j = 0; j < middleNumber.Length; j++)
             {
-                isDevide = true;
+                numberFromString = int.Parse(middleNumber[j].ToString());
+
+                sumOfDigits += numberFromString;
+
+            }
+            if (sumOfDigits % 8 == 0)
+            {
+                isDevilbeBy8 = true;
             }
 
-            return isDevide;
+            return isDevilbeBy8;
+
         }
     }
 }
+/*
+string stringNumber = i.ToString();
+int resultDigits = 0;
+bool isDigitOdd = false;
+for (int j = 0; j < stringNumber.Length; j++)
+{
+    int numberAfterString = int.Parse(stringNumber[j].ToString());
+
+    isDigitOdd = DigitOdd(numberAfterString);
+
+
+    resultDigits += numberAfterString;
+}
+
+return (resultDigits, isDigitOdd);
+//return resultDigits;
+*/
