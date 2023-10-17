@@ -26,7 +26,7 @@ namespace _02.ChangeList
             string command;
             while ((command = Console.ReadLine()) != "end") 
             {
-                string [] midlleString = command.Split();
+                string [] midlleString = command.Split(' ', StringSplitOptions.RemoveEmptyEntries);
 
                 if (midlleString[0] == "Delete")
                 {

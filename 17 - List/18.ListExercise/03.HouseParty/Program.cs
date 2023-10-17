@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
             int commandsNumber = int.Parse(Console.ReadLine());
-            List <string> gests = new List<string>();
+            List<string> names = new List<string>();
 
             for (int i = 0; i < commandsNumber; i++)
             { 
@@ -13,20 +13,47 @@
                       .Split(' ', StringSplitOptions.RemoveEmptyEntries)
                       .ToList();
                 
-                if 
                 string middleString0 = commands[0];
                 string middleString1 = commands[1];
+                string middleString2 = commands[2];
 
+                if (middleString1 == "is" && middleString2 != "not")
+                {
+                    if (names.Contains(middleString0))
+                    {
+                        Console.WriteLine($"{middleString0} is already in the list!");
+                    }
+                    else 
+                    {
+                        names.Add(middleString0);
+                    }
+                    
 
-
-
-
-
-
-                // Console.WriteLine(string.Join(" ",commands));    
+                }
+                else if (middleString2 == "not")
+                {
+                    if (names.Contains(middleString0))
+                    {
+                        names.RemoveAll(x => x == middleString0);
+                    }
+                    else
+                    {
+                        Console.WriteLine($"{middleString0} is not in the list!");
+                    }
+                    
+                }
+                else 
+                {
+                    continue;
+                }
 
             }
 
+            foreach (var item in names)
+            {
+                Console.WriteLine(item); 
+            }
+               
         }
     }
 }
