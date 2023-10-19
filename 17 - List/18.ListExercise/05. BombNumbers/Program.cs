@@ -46,7 +46,7 @@ namespace _05._BombNumbers
                 }
 
                 //                 5   -       3 = 3
-                if (((inputList.Count - 1) - indexOfBomb) > power)
+                if (((inputList.Count - 1) - indexOfBomb) > power)/* >=  */
                 {
                     count = (power * 2) + 1;
                 }
