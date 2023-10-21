@@ -21,6 +21,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.SoftUniReception80.100",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.ArrayModifier", "02.ArrayModifier\02.ArrayModifier.csproj", "{97F56099-174B-42FF-B9DA-5795CE93B2C3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.Numbers90.100", "03.Numbers\03.Numbers90.100.csproj", "{F7C26A7D-C25B-493B-A044-B1B386201E5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.ShoppingList", "02.ShoppingList\02.ShoppingList.csproj", "{9934691E-F26F-4325-AD9D-119E9357ACAD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +67,14 @@ Global
 		{97F56099-174B-42FF-B9DA-5795CE93B2C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{97F56099-174B-42FF-B9DA-5795CE93B2C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{97F56099-174B-42FF-B9DA-5795CE93B2C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7C26A7D-C25B-493B-A044-B1B386201E5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7C26A7D-C25B-493B-A044-B1B386201E5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7C26A7D-C25B-493B-A044-B1B386201E5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7C26A7D-C25B-493B-A044-B1B386201E5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9934691E-F26F-4325-AD9D-119E9357ACAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9934691E-F26F-4325-AD9D-119E9357ACAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9934691E-F26F-4325-AD9D-119E9357ACAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9934691E-F26F-4325-AD9D-119E9357ACAD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
