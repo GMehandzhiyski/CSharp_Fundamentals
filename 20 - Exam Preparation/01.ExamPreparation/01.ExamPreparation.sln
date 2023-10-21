@@ -11,19 +11,25 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.MovingTarget", "03.Movin
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.ComputerStore", "01.ComputerStore\01.ComputerStore.csproj", "{D2020733-F797-4E18-92F6-5368AC430BEE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.ShootForTheWin", "02.ShootForTheWin\02.ShootForTheWin.csproj", "{5FF0AA30-60A7-4F34-8B8D-578606FBDCE9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.ShootForTheWin", "02.ShootForTheWin\02.ShootForTheWin.csproj", "{5FF0AA30-60A7-4F34-8B8D-578606FBDCE9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.MemoryGame85.100", "03.MemoryGame\03.MemoryGame85.100.csproj", "{F8D3AFDD-9136-471B-8079-3630C22D3943}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.MemoryGame85.100", "03.MemoryGame\03.MemoryGame85.100.csproj", "{F8D3AFDD-9136-471B-8079-3630C22D3943}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.Counter-Strike", "01.Counter-Strike\01.Counter-Strike.csproj", "{2F639809-6B02-4264-92D8-2977374A2D21}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.Counter-Strike", "01.Counter-Strike\01.Counter-Strike.csproj", "{2F639809-6B02-4264-92D8-2977374A2D21}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.SoftUniReception80.100", "01.SoftUniReception\01.SoftUniReception80.100.csproj", "{2874F321-B42C-4227-967D-7C8BE6D7F7FF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.SoftUniReception80.100", "01.SoftUniReception\01.SoftUniReception80.100.csproj", "{2874F321-B42C-4227-967D-7C8BE6D7F7FF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.ArrayModifier", "02.ArrayModifier\02.ArrayModifier.csproj", "{97F56099-174B-42FF-B9DA-5795CE93B2C3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.ArrayModifier", "02.ArrayModifier\02.ArrayModifier.csproj", "{97F56099-174B-42FF-B9DA-5795CE93B2C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.Numbers90.100", "03.Numbers\03.Numbers90.100.csproj", "{F7C26A7D-C25B-493B-A044-B1B386201E5A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.Numbers90.100", "03.Numbers\03.Numbers90.100.csproj", "{F7C26A7D-C25B-493B-A044-B1B386201E5A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.ShoppingList", "02.ShoppingList\02.ShoppingList.csproj", "{9934691E-F26F-4325-AD9D-119E9357ACAD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.ShoppingList", "02.ShoppingList\02.ShoppingList.csproj", "{9934691E-F26F-4325-AD9D-119E9357ACAD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.HeartDelivery", "03.HeartDelivery\03.HeartDelivery.csproj", "{BA173864-787E-43EC-A9F1-778B4A837F07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.BonusScoringSystem", "01.BonusScoringSystem\01.BonusScoringSystem.csproj", "{71194932-BBF3-49DA-ADA9-C760EBB845A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.MuOnline", "02.MuOnline\02.MuOnline.csproj", "{137BC8BA-18E2-4C3C-933F-744AFFB85502}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +81,18 @@ Global
 		{9934691E-F26F-4325-AD9D-119E9357ACAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9934691E-F26F-4325-AD9D-119E9357ACAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9934691E-F26F-4325-AD9D-119E9357ACAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA173864-787E-43EC-A9F1-778B4A837F07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA173864-787E-43EC-A9F1-778B4A837F07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA173864-787E-43EC-A9F1-778B4A837F07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA173864-787E-43EC-A9F1-778B4A837F07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71194932-BBF3-49DA-ADA9-C760EBB845A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71194932-BBF3-49DA-ADA9-C760EBB845A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71194932-BBF3-49DA-ADA9-C760EBB845A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71194932-BBF3-49DA-ADA9-C760EBB845A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{137BC8BA-18E2-4C3C-933F-744AFFB85502}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{137BC8BA-18E2-4C3C-933F-744AFFB85502}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{137BC8BA-18E2-4C3C-933F-744AFFB85502}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{137BC8BA-18E2-4C3C-933F-744AFFB85502}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
