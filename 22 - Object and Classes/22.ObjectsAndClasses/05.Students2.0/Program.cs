@@ -1,4 +1,4 @@
-﻿namespace _04.Students
+﻿namespace _05.Students2._0
 {
     internal class Program
     {
