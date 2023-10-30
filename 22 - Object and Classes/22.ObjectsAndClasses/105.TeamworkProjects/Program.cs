@@ -1,5 +1,14 @@
 ﻿namespace _105.TeamworkProjects
 {      // ICOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+
+    /*
+0
+John-PowerPuffsCoders
+Tony-Tony is the best
+Peter->PowerPuffsCoders
+Tony->Tony is the best
+end of assignment
+        */
     public class Program
     {
         static void Main(string[] args)
@@ -12,9 +21,9 @@
                 string[] arguments = Console.ReadLine()
                      .Split("-", StringSplitOptions.RemoveEmptyEntries)
                      .ToArray();
-                string teamName = arguments[0];
-                string creator = arguments[1];
-                string member = arguments[2];
+                string creator = arguments[0];
+                string teamName = arguments[1];
+                //string member = arguments[2];
 
                 bool isHaveTeam = CheckHaveTeam(teamName, teamList); //return True when have a teamm
                 bool isHaveCreator = CheckHaveCreator(creator, teamList); // return TRUE when have a creator
@@ -31,7 +40,8 @@
 
                 else
                 {
-                    Team team = new Team(teamName, creator, member);
+                    Team team = new Team(teamName, creator);
+                    //team.Members.Add(member);
                     teamList.Add(team);
                     Console.WriteLine($"Team {teamName} has been created by {creator}!");
                 }
@@ -40,7 +50,7 @@
             string argumets;
             while ((argumets = Console.ReadLine()) != "end of assignment")
             {
-                List<string> inputMembersList = Console.ReadLine()
+                List<string> inputMembersList = argumets
                     .Split("->", StringSplitOptions.RemoveEmptyEntries)
                     .ToList();
 
@@ -65,85 +75,122 @@
                     {
                         if (teams.TeamName == team)
                         {
-                           teams.Members.Add(nameMember);
+                            teams.Members.Add(nameMember);
                         }
 
                     }
 
-
                 }
-
-
-
 
             }
 
+            PrintTeams(teamList);
+
+
+
+        }
+
+
+        private static void PrintTeams(List<Team> teamList)
+        {
+            List <string> teamsToDisband = new List<string>();
+
+            foreach (Team currTeam in teamList.OrderByDescending(t => t.TeamName))
+            {
+                if (currTeam.Members.Count > 0)
+                {
+                    Console.WriteLine($"{currTeam.TeamName}");
+                    Console.WriteLine($"- {currTeam.Creator}");
+
+                    foreach (string currMembers in currTeam.Members)
+                    {
+                        Console.WriteLine($"-- {currMembers}");
+                    }
+                }
+                else
+                {
+                  teamsToDisband.Add(currTeam.TeamName);
+                }
+            }
+
+            Console.WriteLine($"Teams to disband:");
+
+            foreach (string currTeamName in teamsToDisband)
+            {
+              
+                Console.WriteLine($"{currTeamName}");
+            }
+           
 
         }
 
         private static bool CheckMemberJoin(string nameMember, List<Team> teamList)
         {
-            bool isMemberNotJoin = false;
 
-            //foreach (Team MemberName in teamList)
-            //{
-            //    if (MemberName.Members == nameMember)
-            //    {
-            //        isMemberNotJoin = true;
-            //    }
-            //}
+            foreach (Team currTeam in teamList)
+            {
+                if (currTeam.Creator != nameMember)
+                {
+                    foreach (var member in currTeam.Members)
+                    {
+                        if (member == nameMember)
+                        {
+                            return true;
+                        }
+                    }
+                }
+                else 
+                {
+                    return true;
+                }
+                
 
-           //Team isMemberNotJoinTeams = teamList.Find(t => t.Members = nameMember);
-           // if (isMemberNotJoinTeams != null)
-           // {
-           //     isMemberNotJoin = true;
-           // }
-            return isMemberNotJoin;
+            }
+
+            return false;
         }
 
         private static bool CheckExistTeam(string team, List<Team> teamList)
         {
-            bool isTeamNotExist = true;
+
             foreach (Team teamName in teamList)
             {
                 if (teamName.TeamName == team)
                 {
-                    isTeamNotExist = false;
+                    return false;
                 }
 
             }
-            return isTeamNotExist;
+            return true;
         }
 
         private static bool CheckHaveCreator(string creator, List<Team> teamList)
         {
-            bool isHaveCreator = false;
             foreach (Team creatorName in teamList)
             {
                 if (creatorName.Creator == creator)
                 {
-                    isHaveCreator = true;
+                    return true;
                 }
             }
-            return isHaveCreator;
+            return false;
         }
 
         private static bool CheckHaveTeam(string teamName, List<Team> teamList)
         {
-            bool isFoundTeam = false;
             foreach (Team teamNam in teamList)
             {
                 if (teamNam.TeamName == teamName)
                 {
-                    isFoundTeam = true;
+                    return true;
                 }
             }
-            return isFoundTeam;
+            return false;
         }
     }
     class Team
     {
-        public Team(string teamName, string creator, string member)
+        public Team(string teamName, string creator)
         {
             TeamName = teamName;
             Creator = creator;
@@ -154,6 +201,6 @@
 
         public string Creator { get; set; }
 
-        public new List<string> Members { get; set; }
+        public List<string> Members { get; set; }
     }
 }

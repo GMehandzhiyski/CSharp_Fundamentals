@@ -6,13 +6,14 @@ namespace _07.VehicleCatalogue
     {
         static void Main(string[] args)
         {
-            List<Car> carList = new List<Car>();
-            List<Truck> truckList = new List<Truck>();
+            //List<Car> carList = new List<Car>();
+            //List<Truck> truckList = new List<Truck>();
+            CatalogVehicle catalogVehicle = new CatalogVehicle();
 
             string arguments;
             while ((arguments = Console.ReadLine()) != "end")
             {
-               
+
 
                 List<string> argumetsList = arguments
                     .Split("/", StringSplitOptions.RemoveEmptyEntries)
@@ -24,41 +25,51 @@ namespace _07.VehicleCatalogue
 
                 if (type == "Car")
                 {
-                   Car car = new Car(brand, model, horseWeight);
-                   carList.Add(car);
+                    Car car = new Car(brand, model, horseWeight);
+                    catalogVehicle.Cars.Add(car);
 
                 }
                 else if (type == "Truck")
                 {
                     Truck truck = new Truck(brand, model, horseWeight);
-                    truckList.Add(truck);
+                    catalogVehicle.Trucks.Add(truck);
                 }
-                
+
 
             }
-            if (carList.Count > 0 ) 
+            if (catalogVehicle.Cars.Count > 0)
             {
                 Console.WriteLine("Cars:");
-                foreach (Car car in carList.OrderBy(c => c.Brand)) 
+                foreach (Car car in catalogVehicle.Cars.OrderBy(c => c.Brand))
                 {
                     Console.WriteLine($"{car.Brand}: {car.Model} - {car.HorsePower}hp ");
                 }
             }
-            if (truckList.Count > 0)
+            if (catalogVehicle.Trucks.Count > 0)
             {
                 Console.WriteLine("Trucks:");
-                foreach (var truck in truckList.OrderBy(t => t.Brand))
+                foreach (var truck in catalogVehicle.Trucks.OrderBy(t => t.Brand))
                 {
-                    Console.WriteLine($"{truck.Brand}: {truck.Model} - {truck.Weight}kg"); 
+                    Console.WriteLine($"{truck.Brand}: {truck.Model} - {truck.Weight}kg");
                 }
 
             }
 
         }
     }
+    class CatalogVehicle
+    {
+        public CatalogVehicle()
+        {
+            Cars = new List<Car>();
+            Trucks = new List<Truck>();
+        }
+        public List<Car> Cars { get; set; }
+        public List<Truck> Trucks { get; set; }
+    }
     class Truck
     {
-      
+
         public Truck(string brand, string model, string horseWeight)
         {
             Brand = brand;
@@ -84,19 +95,5 @@ namespace _07.VehicleCatalogue
         public string Model { get; set; }
         public string HorsePower { get; set; }
     }
-    //class CatalogVehicle
-    //{
-
-
-    //    public CatalogVehicle(string type, string brand, string model, string horsePower)
-    //    {
-    //        B = type;
-    //        brand = brand;
-    //        model = model;
-    //        horsePower = horsePower;
-    //    }
-
-    //    public List<Truck> Truck { get; set; }
-    //    public List<Car> Cars { get; set; }
-    //}
+  
 }

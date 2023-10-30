@@ -1,6 +1,6 @@
 ﻿namespace _106.VehicleCatalogue
 {
-    //ICOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO /*.DefaultIfEmpty()*/
+    
 
     internal class Program
     {
@@ -67,7 +67,7 @@
             {
                 if (vehicle.Type == "Truck")
                 {
-                    averageHPTruck += (vehicle.HorsePower)/*.DefaultIfEmpty()*/;
+                    averageHPTruck += (vehicle.HorsePower);
                     truckCount++;
                 }
             }
