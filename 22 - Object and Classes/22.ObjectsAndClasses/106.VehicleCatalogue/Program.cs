@@ -1,26 +1,7 @@
 ﻿namespace _106.VehicleCatalogue
 {
-    /*
-truck Volvo blue 220
-truck Man red 350
-car Tesla silver 450
-car Nio red 650
-car Koenigsegg orange 750
-End
-Tesla
-Nio
-Man
-Mack
-Close the Catalogue
+    //ICOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO /*.DefaultIfEmpty()*/
 
-
-
-
-
-
-
-
-        */
     internal class Program
     {
         static void Main(string[] args)

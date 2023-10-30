@@ -11,25 +11,27 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.BigFactorial", "02.BigFa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.Songs", "03.Songs\03.Songs.csproj", "{70AF6839-CA7C-4C18-900C-B385A38FCAD9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.Students", "04.Students\04.Students.csproj", "{31B5E2D7-B2A0-4702-B875-208294C10199}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.Students", "04.Students\04.Students.csproj", "{31B5E2D7-B2A0-4702-B875-208294C10199}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.Students2.0", "05.Students2.0\05.Students2.0.csproj", "{982929F0-60F2-437B-9B4B-DBF861B13891}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05.Students2.0", "05.Students2.0\05.Students2.0.csproj", "{982929F0-60F2-437B-9B4B-DBF861B13891}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.StoreBoxes", "06.StoreBoxes\06.StoreBoxes.csproj", "{305D58A2-40C0-46F5-9B0E-03DB394CF751}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06.StoreBoxes", "06.StoreBoxes\06.StoreBoxes.csproj", "{305D58A2-40C0-46F5-9B0E-03DB394CF751}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.VehicleCatalogue", "07.VehicleCatalogue\07.VehicleCatalogue.csproj", "{14F3CBCC-221E-4B4D-B39E-F49DFE9C455A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07.VehicleCatalogue", "07.VehicleCatalogue\07.VehicleCatalogue.csproj", "{14F3CBCC-221E-4B4D-B39E-F49DFE9C455A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "101. Advertisement Message", "101. Advertisement Message\101. Advertisement Message.csproj", "{D5EFD500-1A82-4ABF-9B3E-AC1DDEEF1461}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "101. Advertisement Message", "101. Advertisement Message\101. Advertisement Message.csproj", "{D5EFD500-1A82-4ABF-9B3E-AC1DDEEF1461}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "102.Articles", "02.Articles\102.Articles.csproj", "{3A2D75E2-F4EE-46C2-8DE2-A3BA30D3115E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "102.Articles", "02.Articles\102.Articles.csproj", "{3A2D75E2-F4EE-46C2-8DE2-A3BA30D3115E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "103. Articles 2.0", "103. Articles 2.0\103. Articles 2.0.csproj", "{AED4E44A-5997-465F-8BE9-04E2A351645B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "103. Articles 2.0", "103. Articles 2.0\103. Articles 2.0.csproj", "{AED4E44A-5997-465F-8BE9-04E2A351645B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "104. Students", "104. Students\104. Students.csproj", "{3FD54E6C-2F38-4071-8D06-A2CB87785663}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "104. Students", "104. Students\104. Students.csproj", "{3FD54E6C-2F38-4071-8D06-A2CB87785663}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "105.TeamworkProjects", "105.TeamworkProjects\105.TeamworkProjects.csproj", "{09BA1E15-B0E4-4278-B918-D17CD0262D22}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "105.TeamworkProjects", "105.TeamworkProjects\105.TeamworkProjects.csproj", "{09BA1E15-B0E4-4278-B918-D17CD0262D22}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "106.VehicleCatalogue", "106.VehicleCatalogue\106.VehicleCatalogue.csproj", "{AE396442-0703-423A-8F35-DD332EABB58F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "106.VehicleCatalogue", "106.VehicleCatalogue\106.VehicleCatalogue.csproj", "{AE396442-0703-423A-8F35-DD332EABB58F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "107. Order by Age", "107. Order by Age\107. Order by Age.csproj", "{17819ED5-178A-419B-A8AA-2955A227982B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +95,10 @@ Global
 		{AE396442-0703-423A-8F35-DD332EABB58F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE396442-0703-423A-8F35-DD332EABB58F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AE396442-0703-423A-8F35-DD332EABB58F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17819ED5-178A-419B-A8AA-2955A227982B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17819ED5-178A-419B-A8AA-2955A227982B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17819ED5-178A-419B-A8AA-2955A227982B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17819ED5-178A-419B-A8AA-2955A227982B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
