@@ -1,12 +1,11 @@
 ﻿namespace _106.VehicleCatalogue
 {
-/*
-truck Volvo blue 0
-truck Man red 0
-car Tesla silver 0
-car Nio red 0
-truck Mack white 0
-car Koenigsegg orange 0
+    /*
+truck Volvo blue 220
+truck Man red 350
+car Tesla silver 450
+car Nio red 650
+car Koenigsegg orange 750
 End
 Tesla
 Nio
@@ -20,7 +19,8 @@ Close the Catalogue
 
 
 
-    */
+
+        */
     internal class Program
     {
         static void Main(string[] args)
@@ -68,7 +68,17 @@ Close the Catalogue
                     averageHPCar += vehicle.HorsePower;
                     carCount++;
                 }
+               
             }
+            if (carCount == 0)
+            {
+                averageHPCar = 0;
+            }
+            else 
+            {
+                averageHPCar = averageHPCar / carCount;
+            }
+           
 
             decimal averageHPTruck = 0;
             int truckCount = 0;
@@ -76,15 +86,21 @@ Close the Catalogue
             {
                 if (vehicle.Type == "Truck")
                 {
-                    averageHPTruck += vehicle.HorsePower;
+                    averageHPTruck += (vehicle.HorsePower)/*.DefaultIfEmpty()*/;
                     truckCount++;
                 }
-
-
+            }
+            if (truckCount == 0)
+            {
+                averageHPTruck = 0;
+            }
+            else
+            {
+                averageHPTruck = averageHPTruck / truckCount;
             }
 
-            Console.WriteLine($"Cars have average horsepower of: {(averageHPCar / carCount):f2}.");
-            Console.WriteLine($"Trucks have average horsepower of: {(averageHPTruck / truckCount):f2}.");
+            Console.WriteLine($"Cars have average horsepower of: {averageHPCar:f2}.");
+            Console.WriteLine($"Trucks have average horsepower of: {(averageHPTruck):f2}.");
         }
     }
     class Vehicle
