@@ -1,4 +1,4 @@
-﻿namespace _04.Students
+﻿    namespace _04.Students
 {
     public class Program
     {

@@ -31,7 +31,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "105.TeamworkProjects", "105
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "106.VehicleCatalogue", "106.VehicleCatalogue\106.VehicleCatalogue.csproj", "{AE396442-0703-423A-8F35-DD332EABB58F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "107. Order by Age", "107. Order by Age\107. Order by Age.csproj", "{17819ED5-178A-419B-A8AA-2955A227982B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "107. Order by Age", "107. Order by Age\107. Order by Age.csproj", "{17819ED5-178A-419B-A8AA-2955A227982B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "201.CompanyRoster", "201.CompanyRoster\201.CompanyRoster.csproj", "{BA70147A-7F21-471F-904A-A52685B98DE8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "202.Oldest Family Member", "202.Oldest Family Member\202.Oldest Family Member.csproj", "{C3A1DFE1-0FFC-49B8-BD22-755D0AFA9277}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "203.SpeedRacing", "03.SpeedRacing\203.SpeedRacing.csproj", "{CBB3045C-9893-488F-A63B-B89EBF5DCF19}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +105,18 @@ Global
 		{17819ED5-178A-419B-A8AA-2955A227982B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{17819ED5-178A-419B-A8AA-2955A227982B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{17819ED5-178A-419B-A8AA-2955A227982B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA70147A-7F21-471F-904A-A52685B98DE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA70147A-7F21-471F-904A-A52685B98DE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA70147A-7F21-471F-904A-A52685B98DE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA70147A-7F21-471F-904A-A52685B98DE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3A1DFE1-0FFC-49B8-BD22-755D0AFA9277}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3A1DFE1-0FFC-49B8-BD22-755D0AFA9277}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3A1DFE1-0FFC-49B8-BD22-755D0AFA9277}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3A1DFE1-0FFC-49B8-BD22-755D0AFA9277}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBB3045C-9893-488F-A63B-B89EBF5DCF19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBB3045C-9893-488F-A63B-B89EBF5DCF19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBB3045C-9893-488F-A63B-B89EBF5DCF19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBB3045C-9893-488F-A63B-B89EBF5DCF19}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
