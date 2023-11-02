@@ -1,5 +1,15 @@
-﻿using System.Diagnostics;
+﻿using _202.Oldest_Family_Member;
+using System.Diagnostics;
 using System.Reflection;
+using System.Xml.Linq;
+/*
+5
+Steve 10
+Christopher 15 
+Annie 4
+John 35
+Maria 34 
+ */
 
 namespace _202.Oldest_Family_Member
 {
@@ -8,8 +18,8 @@ namespace _202.Oldest_Family_Member
         static void Main(string[] args)
         {
             int numberPeople = int.Parse(Console.ReadLine());
-           
-            List <Family> familyList = new List<Family>();
+
+            Family family = new Family();
 
             for (int i = 0; i < numberPeople; i++)
             {
@@ -21,40 +31,18 @@ namespace _202.Oldest_Family_Member
                 int age = int.Parse(argument[1]);
 
                 Person person = new Person(name, age);
-                //?????????????????????????????????(person);
-
-
-                FindOldestMember(familyList);
+                family.AddMember(person);
             }
 
+           Person oldestPerson = family.GetOldestMember();
 
+            Console.WriteLine($"{oldestPerson.Name} {oldestPerson.Age}");
         }
-        private static void FindOldestMember(List <Family> familyList)
-        {
-            int maxPersonAge = 0;
-            string personName = string.Empty;
-            foreach (Family findAge in familyList)
-            {
-                foreach (Person person in findAge.Persons)
-                {
-                    if (person.Age > maxPersonAge)
-                    {
-                        maxPersonAge = person.Age;
-                        personName = person.Name;
-                    }
-
-                }
-            }
-
-            Console.WriteLine($"{personName} {maxPersonAge}");
-
-        }
+      
     }
 
     class Person
     {
-
-
         public Person(string name, int age)
         {
             Name = name;
@@ -65,13 +53,40 @@ namespace _202.Oldest_Family_Member
 
         public int Age { get; set; }
     }
+
+
     class Family
     {
         public Family()
         {
             Persons = new List<Person>();
         }
+
         public List<Person> Persons { get; set; }
+
+        public void AddMember(Person person)
+        { 
+            Persons.Add(person);
+        }
+        
+        public Person GetOldestMember()
+        {
+            int maxPersonAge = 0;
+            Person oldestPerson = null;
+
+            foreach (Person person in Persons)
+            {
+                if (person.Age > maxPersonAge)
+                {
+                   maxPersonAge = person.Age;
+                   oldestPerson = person;
+
+                }
+
+            }
+            return oldestPerson;
+        }
 
     }
 }
+

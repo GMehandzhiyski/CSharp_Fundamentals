@@ -27,26 +27,24 @@
             foreach (Employee employeeSalary in employeesList)
             {
 
-   
+                foreach (var item in employeesList)
+                {
+                    decimal totalEmployeeSalary = 0;
+                    int countDepartament = 0;
 
-
-
-
-
-                decimal totalEmployeeSalary = 0;
-                int countDepartament = 0;
-               
                     totalEmployeeSalary += employeeSalary.Salary;
                     countDepartament++;
+                }
+                
                 
                
                 
-                decimal averageDepartamentSalary = totalEmployeeSalary / countDepartament;
+              ////  decimal averageDepartamentSalary = totalEmployeeSalary / countDepartament;
 
-                if (averageDepartamentSalary > maxAverageDepartamentSalaty)
-                { 
-                    maxAverageDepartamentSalaty = averageDepartamentSalary;
-                }
+              //  if (averageDepartamentSalary > maxAverageDepartamentSalaty)
+              //  { 
+              //      maxAverageDepartamentSalaty = averageDepartamentSalary;
+              //  }
 
             }
 
