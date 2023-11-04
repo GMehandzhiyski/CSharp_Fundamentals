@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.WordFilter", "04.WordFil
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.CountCharsInAString", "01.CountCharsInAString\01.CountCharsInAString.csproj", "{9F094962-1B58-4B82-83B5-4BFBF07DF09E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.AMinerTask", "02.AMinerTask\02.AMinerTask.csproj", "{98908E62-A1AF-42F1-8612-3F6F6469960B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{9F094962-1B58-4B82-83B5-4BFBF07DF09E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9F094962-1B58-4B82-83B5-4BFBF07DF09E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9F094962-1B58-4B82-83B5-4BFBF07DF09E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98908E62-A1AF-42F1-8612-3F6F6469960B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98908E62-A1AF-42F1-8612-3F6F6469960B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98908E62-A1AF-42F1-8612-3F6F6469960B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98908E62-A1AF-42F1-8612-3F6F6469960B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -61,6 +67,7 @@ Global
 		{33A19268-8525-4EBC-A136-D26D0C2B5C35} = {F1645959-2C9F-4ADB-92AE-4A072BB04C90}
 		{AE3CC519-7ED2-48DD-994D-A9BFA8688284} = {F1645959-2C9F-4ADB-92AE-4A072BB04C90}
 		{9F094962-1B58-4B82-83B5-4BFBF07DF09E} = {D35606D6-CFBC-4245-938A-932F781FA4B4}
+		{98908E62-A1AF-42F1-8612-3F6F6469960B} = {D35606D6-CFBC-4245-938A-932F781FA4B4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {71714F8E-FF14-44EC-B73D-17E16457D9C6}
