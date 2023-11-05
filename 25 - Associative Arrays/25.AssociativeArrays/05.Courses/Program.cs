@@ -34,6 +34,7 @@
             foreach (KeyValuePair <string,string> currCourse in studentDataBase)
             {
                 int counterCourse = 0;
+
                 if (!chekedCourse.Contains(currCourse.Value))
                 {
                     foreach (KeyValuePair<string, string> foundCourse in studentDataBase)
@@ -47,7 +48,7 @@
                     chekedCourse.Add(currCourse.Value);
 
 
-                    Console.WriteLine($"{currCourse.Value} : {counterCourse}");
+                    Console.WriteLine($"{currCourse.Value}: {counterCourse}");
                     foreach (KeyValuePair<string, string> currStudentName in studentDataBase)
                     {
                         if (currCourse.Value == currStudentName.Value)
