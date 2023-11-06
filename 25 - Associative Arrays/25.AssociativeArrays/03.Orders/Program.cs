@@ -64,14 +64,3 @@
         }
     }
 }
-//foreach (KeyValuePair <string, ProductInfo> currenProduct in productsDict)
-//{
-//    Console.WriteLine(currenProduct.Key);
-
-//    foreach (var currProductInfo in productsDict.Values)
-//    {
-//        Console.WriteLine(currProductInfo.ProductPrice);
-//        Console.WriteLine(currProductInfo.ProductQuantity);
-//    }
-
-//}
