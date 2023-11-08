@@ -5,6 +5,7 @@
         static void Main(string[] args)
         {
             //List<string> employeesId = new List<string>();
+
             Dictionary <string, Company > companiesDataBase = new Dictionary<string, Company > ();
 
             string arguments = string.Empty;

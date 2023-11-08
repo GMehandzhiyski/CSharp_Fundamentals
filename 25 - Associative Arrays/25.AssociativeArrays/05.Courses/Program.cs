@@ -15,6 +15,7 @@
 
                 string courseName = commands[0];
                 string studentName = commands[1];
+
                 if (!studentDataBase.ContainsKey(studentName))
                 {
                    
