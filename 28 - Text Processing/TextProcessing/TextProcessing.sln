@@ -31,6 +31,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.CaesarCipher", "04.Caesa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.MultiplyBigNumber", "05.MultiplyBigNumber\05.MultiplyBigNumber.csproj", "{2711A8FC-44E5-418B-9AB3-16AF269B8090}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.ReplaceRepeatingChars", "06.ReplaceRepeatingChars\06.ReplaceRepeatingChars.csproj", "{DFDA1905-02CA-49F0-8374-FFB5C88CDF77}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{2711A8FC-44E5-418B-9AB3-16AF269B8090}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2711A8FC-44E5-418B-9AB3-16AF269B8090}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2711A8FC-44E5-418B-9AB3-16AF269B8090}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFDA1905-02CA-49F0-8374-FFB5C88CDF77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFDA1905-02CA-49F0-8374-FFB5C88CDF77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFDA1905-02CA-49F0-8374-FFB5C88CDF77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFDA1905-02CA-49F0-8374-FFB5C88CDF77}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -96,6 +102,7 @@ Global
 		{96DBCD38-D30A-4289-87D9-F4A8D66DEBBD} = {823D960D-BA9C-4E9B-867E-8F305E5C1248}
 		{76C53FAB-30DD-42B4-99C7-3A7D62FDC3CC} = {823D960D-BA9C-4E9B-867E-8F305E5C1248}
 		{2711A8FC-44E5-418B-9AB3-16AF269B8090} = {823D960D-BA9C-4E9B-867E-8F305E5C1248}
+		{DFDA1905-02CA-49F0-8374-FFB5C88CDF77} = {823D960D-BA9C-4E9B-867E-8F305E5C1248}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {30D10AD0-CE45-42DF-972F-EE05073FDAC6}
