@@ -27,6 +27,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.CharacterMultiplier", "0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.ExtractFile", "03.ExtractFile\03.ExtractFile.csproj", "{96DBCD38-D30A-4289-87D9-F4A8D66DEBBD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.CaesarCipher", "04.CaesarCipher\04.CaesarCipher.csproj", "{76C53FAB-30DD-42B4-99C7-3A7D62FDC3CC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{96DBCD38-D30A-4289-87D9-F4A8D66DEBBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{96DBCD38-D30A-4289-87D9-F4A8D66DEBBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{96DBCD38-D30A-4289-87D9-F4A8D66DEBBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76C53FAB-30DD-42B4-99C7-3A7D62FDC3CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76C53FAB-30DD-42B4-99C7-3A7D62FDC3CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76C53FAB-30DD-42B4-99C7-3A7D62FDC3CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76C53FAB-30DD-42B4-99C7-3A7D62FDC3CC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -82,6 +88,7 @@ Global
 		{0E4A2EA3-9536-4E62-80BD-6C3B0D1AFFBA} = {823D960D-BA9C-4E9B-867E-8F305E5C1248}
 		{453A0BFF-7DBA-4B40-9C3D-39E6225E0FC0} = {823D960D-BA9C-4E9B-867E-8F305E5C1248}
 		{96DBCD38-D30A-4289-87D9-F4A8D66DEBBD} = {823D960D-BA9C-4E9B-867E-8F305E5C1248}
+		{76C53FAB-30DD-42B4-99C7-3A7D62FDC3CC} = {823D960D-BA9C-4E9B-867E-8F305E5C1248}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {30D10AD0-CE45-42DF-972F-EE05073FDAC6}
