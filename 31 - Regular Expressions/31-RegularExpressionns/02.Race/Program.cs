@@ -59,16 +59,6 @@ namespace _02.Race
                 {
                     runners.Add(racerName, racerRange);
                 }
-
-                /*
-
-
-
-
-
-                */
-
-
             }
 
          var sortedRunners = runners.OrderByDescending(r => r.Value)
