@@ -1,4 +1,4 @@
-﻿namespace _01.CountRealNumbers
+﻿ namespace _01.CountRealNumbers
 {
     internal class Program
     {
