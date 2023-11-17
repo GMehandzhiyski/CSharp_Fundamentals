@@ -8,7 +8,7 @@ namespace _01.Furniture
         {
             List<string> listProsucts = new List<string>();
 
-            string pattern = @">>(?<name>[A-Za-z]+)<<(?<price>\d+.\d+)!(?<quantity>\d+)";
+            string pattern = @">>(?<name>[A-Za-z]+)<<(?<price>\d+|\d+\.\d+)!(?<quantity>\d+)";
             decimal totalManey = 0;
 
             string arguments;
@@ -22,7 +22,7 @@ namespace _01.Furniture
                 {
                     //Console.WriteLine(match.Groups["name"].Value);
                     decimal price = decimal.Parse(match.Groups["price"].Value);
-                    decimal quantity = decimal.Parse(match.Groups["quantity"].Value);
+                    int quantity = int.Parse(match.Groups["quantity"].Value);
                     listProsucts.Add(match.Groups["name"].Value);
                     totalManey += price * quantity;
 
@@ -33,7 +33,7 @@ namespace _01.Furniture
             {
                 Console.WriteLine(name); 
             }
-            Console.WriteLine($"Total money spend: {totalManey}");
+            Console.WriteLine($"Total money spend: {totalManey:f2}");
 
         }
     }
