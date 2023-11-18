@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34024.191
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "38-FinalExamPrepare", "38-FinalExamPrepare\38-FinalExamPrepare.csproj", "{4CD56704-F695-4674-A69F-6D067FE7ED21}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "38-FinalExamPrepare", "38-FinalExamPrepare\38-FinalExamPrepare.csproj", "{4CD56704-F695-4674-A69F-6D067FE7ED21}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.TheImitationGame", "01.TheImitationGame\01.TheImitationGame.csproj", "{8125EB16-0516-4E0A-A6E7-8BB0865E7029}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.TheImitationGame", "01.TheImitationGame\01.TheImitationGame.csproj", "{8125EB16-0516-4E0A-A6E7-8BB0865E7029}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.AdAstra", "02.AdAstra\02.AdAstra.csproj", "{22CA28BC-849A-4DA0-BCA2-A3DE17E0F948}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{8125EB16-0516-4E0A-A6E7-8BB0865E7029}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8125EB16-0516-4E0A-A6E7-8BB0865E7029}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8125EB16-0516-4E0A-A6E7-8BB0865E7029}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22CA28BC-849A-4DA0-BCA2-A3DE17E0F948}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22CA28BC-849A-4DA0-BCA2-A3DE17E0F948}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22CA28BC-849A-4DA0-BCA2-A3DE17E0F948}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22CA28BC-849A-4DA0-BCA2-A3DE17E0F948}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -3,15 +3,6 @@ using System.Security.Cryptography.X509Certificates;
 
 namespace _01.TheImitationGame
 {
-/*
-owyouh
-Move|2
-Move|3
-Insert|3|are
-Insert|9|?
-Decode
-*/
-
     internal class Program
     {
         static void Main(string[] args)
