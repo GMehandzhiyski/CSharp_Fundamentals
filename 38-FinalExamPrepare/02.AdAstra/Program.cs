@@ -6,15 +6,6 @@ namespace _02.AdAstra
     {
         static void Main(string[] args)
         {
-            /*
-(?:(?:#(?<food>[^#|]+)#(?<day>\d{2})/(?<month>\d{2})/(?<year>\d{2})#(?<calories>\d+)#)|\|(?<food>[^#|]+)\|(?<day>\d{2})/(?<month>\d{2})/(?<year>\d{2})\|(?<calories>\d+)\|)+
-
-(?:#(?<food>[^#|]+)#(?<day>\d{2})/(?<month>\d{2})/(?<year>\d{2})#(?<calories>\d+)#)
-
-\|(?<food>[^#|]+)\|(?<day>\d{2})/(?<month>\d{2})/(?<year>\d{2})\|(?<calories>\d+)
-             
-             
-             */
             string regexPatern = @"(?:#(?<food>[^#|]+)#(?<day>\d{2})/(?<month>\d{2})/(?<year>\d{2})#(?<calories>\d+)#|(?<food>[^#|]+)\|(?<day>\d{2})/(?<month>\d{2})/(?<year>\d{2})\|(?<calories>\d+)\|)+";
 
             string inputFoodString = Console.ReadLine();
@@ -42,8 +33,7 @@ namespace _02.AdAstra
                 string yearAddDigit = year.ToString("D2");
                 int calories = int.Parse(match.Groups["calories"].Value);
 
-                Console.WriteLine($"Item: {food}, Best before: {dayAddDigit}/{monthAddDigit}/{yearAddDigit},");
-                Console.WriteLine($"Nutrition: {calories}");
+                Console.WriteLine($"Item: {food}, Best before: {dayAddDigit}/{monthAddDigit}/{yearAddDigit}, Nutrition: {calories}");
             }
 
         }
