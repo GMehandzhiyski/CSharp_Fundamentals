@@ -1,4 +1,5 @@
 ﻿using System.Globalization;
+using System.Linq;
 using System.Security;
 using System.Text;
 /*
@@ -14,10 +15,9 @@ namespace _201.SecretChat
     {
         static void Main(string[] args)
         {
-
-            string message = Console.ReadLine();
-            StringBuilder sb = new StringBuilder(); 
-            sb.AppendLine(message);
+            int count = 0;
+            string messege = Console.ReadLine();
+           
 
             string argumets = string.Empty;
             while ((argumets = Console.ReadLine()) != "Reveal")
@@ -31,20 +31,21 @@ namespace _201.SecretChat
                 if (command == "InsertSpace")
                 {
                     int index = int.Parse(commands[1]);
-                    InsertSpace(index, sb);
+                    messege = InsertSpace(index, messege);
 
                 }
                 else if (command == "Reverse")
                 {
                     string subString = commands[1];
-                    bool isSubstringIsAvalicable = IsSubstringIsAvalivable(subString, sb);
+                    bool isSubstringIsAvalicable = IsSubstringIsAvalivable(subString, messege);
                     if (isSubstringIsAvalicable)
                     {
-                        SubStringManipulation(subString, sb);
+                        messege = SubStringManipulation(subString, messege);
                     }
                     else
                     {
                         Console.WriteLine("error");
+                        continue;
                     }
 
                 }
@@ -52,31 +53,28 @@ namespace _201.SecretChat
                 {
                     string subString = commands[1];
                     string replacement = commands[2];
-                    ReplaceOldStringWhitNew(subString, replacement, sb);
+                    messege = ReplaceOldStringWhitNew(subString, replacement, messege);
                 }
                 else
                 {
                     continue;
                 }
-
-               sb.Replace('\0', ' ');
-               Console.WriteLine(sb.ToString().TrimEnd(' '));
-
+                Console.WriteLine(messege);
             }
-            sb.Replace('\0', ' ');
-            Console.WriteLine($"You have a new text message: {sb.ToString()}");
+           
+            Console.WriteLine($"You have a new text message: {messege}");
         }
 
-        private static void ReplaceOldStringWhitNew(string subString, string replacement, StringBuilder sb)
+        private static string ReplaceOldStringWhitNew(string subString, string replacement, string messege)
         {
-           sb = sb.Replace(subString, replacement);
+            return messege.Replace(subString, replacement);
         }
 
-        private static void SubStringManipulation(string subString, StringBuilder sb)
+        private static string SubStringManipulation(string subString, string messege)
         {
-            int index = sb.ToString().IndexOf(subString);
+            int index = messege.IndexOf(subString);
             int subStringLenght = subString.Length;
-            sb = sb.Remove(index, subStringLenght);
+            messege = messege.Remove(index, subStringLenght);
             string temporarySubString = string.Empty;
 
             foreach (var currChar in subString)
@@ -85,19 +83,17 @@ namespace _201.SecretChat
                 temporarySubString = temporarySubString.Insert(0, currString);
             }
 
-            sb.Append(temporarySubString);
-
-
+           return messege += (temporarySubString);
         }
 
-        private static bool IsSubstringIsAvalivable(string subString, StringBuilder sb)
+        private static bool IsSubstringIsAvalivable(string subString, string messege)
         {
-            return sb.ToString().Contains(subString);
+            return messege.Contains(subString);
         }
 
-        private static void InsertSpace(int index, StringBuilder sb)
+        private static string InsertSpace(int index, string messege)
         {
-            sb = sb.Insert(index," ");
+            return messege.Insert(index, " ");
         }
     }
 }
