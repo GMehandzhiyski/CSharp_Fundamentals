@@ -21,7 +21,7 @@ namespace _101.WorldTour
                 {
                     int index = int.Parse(commands[1]);
                     if (index >= 0 
-                        && index <= inputString.Length)
+                        && index < inputString.Length)
                     {
                         string destination = commands[2];
                         inputString = inputString.Insert(index, destination);
@@ -34,7 +34,7 @@ namespace _101.WorldTour
                     int endIndex = int.Parse(commands[2]);
 
                     if (startIndex >= 0 
-                        && endIndex <= inputString.Length)
+                        && endIndex < inputString.Length)
                     {
                         inputString = inputString.Remove(startIndex, (endIndex - startIndex) + 1);
                     }
@@ -45,7 +45,7 @@ namespace _101.WorldTour
                     string oldIndex = commands[1];
                     string newIndex = commands[2];
                    
-                    while (inputString.Contains(oldIndex))
+                    if (inputString.Contains(oldIndex))
                     {
                         inputString = inputString.Replace(oldIndex, newIndex);
                     }

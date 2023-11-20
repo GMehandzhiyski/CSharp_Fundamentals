@@ -29,6 +29,7 @@ namespace _101.WorldTour
                         string destination = command[2];
                         sb.Insert(index, destination);
                     }
+                    Console.WriteLine(sb.ToString());
                 }
 
                 else if (command[0] == "Remove Stop")
@@ -41,25 +42,24 @@ namespace _101.WorldTour
                     {
                         sb.Remove(startIndex, (endIndex - startIndex) + 1);
                     }
-
+                    Console.WriteLine(sb.ToString());
                 }
                 else if (command[0] == "Switch")
                 {
                     string oldIndex = command[1];
                     string newIndex = command[2];
                     bool isOldIndexIsAvalivable = CheckOldIndex(oldIndex, sb);
-                    while (isOldIndexIsAvalivable)
+                    if (isOldIndexIsAvalivable)
                     {
                         sb.Replace(oldIndex, newIndex);
-                        isOldIndexIsAvalivable = CheckOldIndex(oldIndex, sb);
                     }
-
+                    Console.WriteLine(sb.ToString());
                 }
                 else
                 {
                     continue;
                 }
-                Console.WriteLine(sb.ToString());
+               
             }
 
             Console.WriteLine($"Ready for world tour! Planned stops: {sb.ToString()}");
@@ -73,8 +73,8 @@ namespace _101.WorldTour
 
         private static bool CheckForValidIndexs(int startIndex, int endIndex, StringBuilder sb)
         {
-            return (startIndex >= 0 && startIndex <= sb.Length)
-                    && (endIndex <= sb.Length);
+            return (startIndex >= 0 && startIndex < sb.Length)
+                    && (endIndex < sb.Length);
         }
 
         private static bool CheckForValidIndex(int index, StringBuilder sb)
