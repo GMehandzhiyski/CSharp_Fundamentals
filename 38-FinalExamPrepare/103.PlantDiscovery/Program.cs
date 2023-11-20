@@ -4,13 +4,10 @@
     {
         static void Main(string[] args)
         {
-            List<PlantClass> plantsList = new List<PlantClass> ();
+            List<Plant> plantsList = new List<Plant> ();
+            //Dictionary<string, Plant> plants = new Dictionary<string, Plant> ();
 
             int number = int.Parse(Console.ReadLine());
-            if (number <= 0) 
-            {
-                return;
-            }
 
             for (int i = 0; i < number; i++)
             {
@@ -20,11 +17,10 @@
 
                 string plant = plantsInput[0];
                 int rarity = int.Parse(plantsInput[1]);
-                decimal rating = 0;
-                decimal rateRaiting = 0;
-                PlantClass plantClass = new PlantClass(plant, rarity, rating, rateRaiting);
+                Plant plantClass = new Plant(plant, rarity);
                
                 bool isPlantIsInDB = CheckPlantIsAvalivable(plant, plantsList);
+
                 if (isPlantIsInDB)
                 {
                     UpdateOldRatityWithNew(plant, rarity, plantsList);
@@ -52,7 +48,7 @@
                         {
                             string plant = commands[1];
                             int rating = int.Parse(commands[3]);
-                            UpdateOldRatingWithNew(plant, rating, plantsList);
+                            AddRatingToPlant(plant, rating, plantsList);
 
                         }
                         else if (command == "Update:")
@@ -82,64 +78,59 @@
 
             foreach (var currPlants in plantsList)
             {
-                decimal finalRaiting = 0;
-                if (currPlants.RateRating > 0)
-                {
-                   finalRaiting = currPlants.Rating / currPlants.RateRating;
-                }
-                else
-                {
-                    finalRaiting = currPlants.Rating;
-                }
+                decimal plantRating = 0;
 
-                Console.WriteLine($"- {currPlants.Plant}; Rarity: {currPlants.Rarity}; Rating: {finalRaiting:f2} ");
+                if(currPlants.Rating.Count > 0)
+                {
+                    plantRating = currPlants.Rating.Average();
+                }
+                Console.WriteLine($"- {currPlants.Name}; Rarity: {currPlants.Rarity}; Rating: {plantRating:F2} ");
             }
         }
 
-        private static void RemoveRatingOnPlant(string plant, List<PlantClass> plantsList)
+        private static void RemoveRatingOnPlant(string plant, List<Plant> plantsList)
         {
 
-            foreach (PlantClass currPlant in plantsList)
+            foreach (Plant currPlant in plantsList)
             {
-                if (currPlant.Plant == plant)
+                if (currPlant.Name == plant)
                 { 
-                    currPlant.Rating = 0;
+                    currPlant.Rating.Clear();
                     break;
                 }
             }
         }
 
-        private static void UpdateOldRatingWithNew(string plant, int rating, List<PlantClass> plantsList)
+        private static void AddRatingToPlant(string plant, int rating, List<Plant> plantsList)
         {
-            foreach (PlantClass currPlant in plantsList)
+            foreach (Plant currPlant in plantsList)
             {
-                if (currPlant.Plant == plant)
+                if (currPlant.Name == plant)
                 {
-                    currPlant.Rating += rating;
-                    currPlant.RateRating++;
+                    currPlant.Rating.Add(rating);
                     break;
                 }
             }
         }
 
-        private static void UpdateOldRatityWithNew(string plant, int rarity, List<PlantClass> plantsList)
+        private static void UpdateOldRatityWithNew(string plant, int rarity, List<Plant> plantsList)
         {
-            foreach (PlantClass currPlant in plantsList)
+            foreach (Plant currPlant in plantsList)
             {
-                if (currPlant.Plant == plant)
+                if (currPlant.Name == plant)
                 { 
                     currPlant.Rarity = rarity;
-                    break;
+                    return;
                 }
             }
         }
 
-        private static bool CheckPlantIsAvalivable(string plant, List<PlantClass> plantsList)
+        private static bool CheckPlantIsAvalivable(string plant, List<Plant> plantsList)
         {
             bool isPlantIsInDB = false;
-            foreach (PlantClass currPlant in plantsList)
+            foreach (Plant currPlant in plantsList)
             {
-                if (currPlant.Plant == plant)
+                if (currPlant.Name == plant)
                 {
                     isPlantIsInDB = true;
                     break;
@@ -149,22 +140,18 @@
         }
 
     }
-    public class PlantClass
+    public class Plant
     {
-        public PlantClass(string plant,int rarity,decimal rating,decimal rateRating)
+        public Plant(string name,int rarity)
         {
-            Plant = plant;
+            Name = name;
             Rarity = rarity;
-            Rating = rating;
-            RateRating = rateRating;
-
+            Rating = new List<decimal>();
         }
-        public string Plant { get; set; }
+        public string Name { get; set; }
 
         public int Rarity { get; set; }
 
-        public decimal Rating { get; set; }
-
-        public decimal RateRating { get; set; }
+        public List<decimal> Rating { get; set; }
     }
 }

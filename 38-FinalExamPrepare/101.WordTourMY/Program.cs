@@ -79,7 +79,7 @@ namespace _101.WorldTour
 
         private static bool CheckForValidIndex(int index, StringBuilder sb)
         {
-            return index >= 0 && index <= sb.Length;
+            return index >= 0 && index < sb.Length;
         }
     }
 }
