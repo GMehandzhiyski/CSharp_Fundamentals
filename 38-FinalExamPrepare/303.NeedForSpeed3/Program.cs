@@ -37,18 +37,26 @@ namespace _303.NeedForSpeed3
                     .ToList();
 
                 string command = currCommand[0];
+                string currCar = currCommand[1];
+
+                Car currentCar = carsList.Where(c => c.Model == currCar).FirstOrDefault();
+
+                if (currentCar == null)
+                {
+                    continue;
+                }
 
                 if (command == "Drive")
                 {
-                    string currCar = currCommand[1];
+
                     int currDistance = int.Parse(currCommand[2]);
                     int currFuel = int.Parse(currCommand[3]);
 
-                    bool isHaveFueltoTrip = CheckFuelLevel(currCar, currFuel, carsList);
+                    bool isHaveFueltoTrip = CheckFuelLevel(currFuel, currentCar);
                     if (isHaveFueltoTrip)
                     {
-                        ReduceCarFuel(currCar, currDistance, currFuel, carsList);
-                        CheckCarMileage(currCar, carsList);
+                        ReduceCarFuel(currDistance, currFuel, currentCar);
+                        CheckCarMileage(currentCar,carsList);
                     }
                     else
                     {
@@ -60,17 +68,16 @@ namespace _303.NeedForSpeed3
                 }
                 else if (command == "Refuel")
                 {
-                    string currCar = currCommand[1];
+
                     int currFuel = int.Parse(currCommand[2]);
-                    RefuelCar(currCar, currFuel, carsList);
+                    RefuelCar(currFuel, currentCar);
 
                 }
                 else if (command == "Revert")
                 {
-                    string currCar = currCommand[1];
                     int currKilometers = int.Parse(currCommand[2]);
-                    RevertCar(currCar, currKilometers, carsList);
-                    Console.WriteLine($"{currCar} mileage decreased by {currKilometers} kilometers");
+                    RevertCar(currKilometers, currentCar);
+                    Console.WriteLine($"{currentCar.Model} mileage decreased by {currKilometers} kilometers");
                 }
                 else
                 {
@@ -84,98 +91,73 @@ namespace _303.NeedForSpeed3
             {
                 Console.WriteLine($"{car.Model} -> Mileage: {car.Mileage} kms, Fuel in the tank: {car.Fuel} lt.");
             }
-           
+
 
 
 
         }
 
-        private static void RevertCar(string currCarModel, int currKilometers, List<Car> carsList)
+        private static void RevertCar(int currKilometers, Car currentCar)
         {
-            Car currentCar = carsList.Where(c => c.Model == currCarModel).FirstOrDefault();
 
-            if(currentCar != null)
+
+            if (currentCar != null)
             {
                 currentCar.Mileage -= currKilometers;
             }
-            if(currentCar.Mileage < 10000)
+            if (currentCar.Mileage < 10000)
             {
                 currentCar.Mileage = 10000;
             }
         }
 
-        private static void RefuelCar(string currCar, int currFuel, List<Car> carsList)
+        private static void RefuelCar(int currFuel, Car currentCar)
         {
-            Car currentCar = carsList.Where(c => c.Model == currCar).FirstOrDefault();
+                int totalFuel = currentCar.Fuel + currFuel;
 
-                if (currentCar.Model == currCar)
+                if (totalFuel > 75)
                 {
-                    int totalFuel = currentCar.Fuel + currFuel;
+                    Console.WriteLine($"{currentCar} refueled with {75 - currentCar.Fuel} liters");
+                    currentCar.Fuel = 75;
 
-                    if (totalFuel > 75)
-                    {
-                           Console.WriteLine($"{currCar} refueled with {75 - currentCar.Fuel} liters");
-                           currentCar.Fuel = 75;
-                        
-                        return;
-                    }
-                    else
-                    {
-                        currentCar.Fuel = totalFuel;
-                        Console.WriteLine($"{currCar} refueled with {currFuel} liters");
-                        return;
-
-                    }
+                    return;
                 }
-            
-           
+                else
+                {
+                    currentCar.Fuel = totalFuel;
+                    Console.WriteLine($"{currentCar.Model} refueled with {currFuel} liters");
+                    return;
+
+                }
+
+
         }
 
         // няма ли начин да изтрия директно с името(без ламбда)????????????????????????
-        public static void CheckCarMileage(string currCar, List<Car> carsList)
+        public static void CheckCarMileage(Car currentCar,List<Car> carsList)
         {
 
-            Car currentCar = carsList.Where(c => c.Model == currCar).FirstOrDefault();
 
-                if (currentCar.Model == currCar
-                    && currentCar.Mileage >= 100000)
-                {
-                    carsList.Remove(currentCar);
-                    Console.WriteLine($"Time to sell the {currCar}!");
-                    return;
-                }
- 
-        }
-
-        public static bool CheckFuelLevel(string currCar, int currFuel, List<Car> carsList)
-        {
-            bool isHaveFueltoTrip = false;
-
-            Car currentCar = carsList.Where(c => c.Model == currCar).FirstOrDefault() ;
-
-            if (currentCar.Model == currCar
-                && currentCar.Fuel >= currFuel)
+            if (currentCar.Mileage >= 100000)
             {
-                isHaveFueltoTrip = true;
+                Console.WriteLine($"Time to sell the {currentCar.Model}!");
+                carsList.Remove(currentCar);
+                
             }
 
-
-            return isHaveFueltoTrip;
         }
 
-        public static void ReduceCarFuel(string currCar, int currDistance, int currFuel, List<Car> carsList)
+        public static bool CheckFuelLevel(int currFuel, Car currentCar)
         {
 
-            Car curruentCar = carsList.Where(c => c.Model == currCar).FirstOrDefault();   
+            return currentCar.Fuel >= currFuel;
+        }
 
-                if (curruentCar.Model == currCar)
-                {
-                    curruentCar.Fuel -= currFuel;
-                    curruentCar.Mileage += currDistance;
-                    Console.WriteLine($"{curruentCar.Model} driven for {currDistance} kilometers. {currFuel} liters of fuel consumed.");
-                    return;
-                }
-
+        public static void ReduceCarFuel(int currDistance, int currFuel, Car currentCar)
+        {
+            currentCar.Fuel -= currFuel;
+            currentCar.Mileage += currDistance;
+            Console.WriteLine($"{currentCar.Model} driven for {currDistance} kilometers. {currFuel} liters of fuel consumed.");
         }
 
 
