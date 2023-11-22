@@ -4,20 +4,6 @@ using System.Text.RegularExpressions;
 
 namespace _02.MirrorWords
 {
-    /*
-    valid
-    #poOl##loOp#
-    #Part##traP#
-    @leveL@@Level@
-    #sAw##wAs#
-    @pack@@ckap@#
-
-    Ivalid
-    @mix#tix3dj
-    wl@@bong&song%4very$long@thong
-    #car#rac##
-
-    */
     public class Program
     {
         static void Main(string[] args)
@@ -30,7 +16,7 @@ namespace _02.MirrorWords
             Dictionary<string, string> wordsDictionary = new Dictionary<string, string>();
 
             StringBuilder sb = new StringBuilder();
-
+            
             foreach (Match match in matches)
             {
                 string words = match.Value;
@@ -41,20 +27,26 @@ namespace _02.MirrorWords
                 wordsDictionary.Add(FirstWord, SecondWord);
             }
 
-            string isFoundMirrorWords = CheckValidMirrorWords(wordsDictionary,sb);
+            
 
-            if (wordsDictionary.Count <= 0)
+            if (wordsDictionary.Count == 0)
             {
                 PrintInCorrectResult();
+                return;
             }
-            else if (wordsDictionary.Count > 0
-                && isFoundMirrorWords == "")
+
+            PrintCorrectResult(wordsDictionary, sb);
+
+            string mirrorWords = CheckValidMirrorWords(wordsDictionary, sb);
+
+            if (mirrorWords.Length == 0)
             {
-                PrintCorrectResultWithoutMirror(wordsDictionary, sb);
+                PrintCorrectResultWithoutMirror();
             }
             else
             {
-                PrintCorrectResult(wordsDictionary, sb);
+                Console.WriteLine("The mirror words are:");
+                Console.WriteLine(sb.ToString().TrimEnd(',',' '));
             }
             
 
@@ -66,9 +58,8 @@ namespace _02.MirrorWords
             Console.WriteLine("No mirror words!");
         }
 
-        private static void PrintCorrectResultWithoutMirror(Dictionary<string, string> wordsDictionary, StringBuilder sb)
+        private static void PrintCorrectResultWithoutMirror()
         {
-            Console.WriteLine($"{wordsDictionary.Count} word pairs found!");
             Console.WriteLine("No mirror words!");
         }
 
@@ -97,8 +88,6 @@ namespace _02.MirrorWords
         {
             
             Console.WriteLine($"{wordsDictionary.Count} word pairs found!");
-            Console.WriteLine("The mirror words are:");
-            Console.WriteLine(sb.ToString().TrimEnd(',', ' '));
 
         }
     }
