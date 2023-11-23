@@ -36,6 +36,7 @@
                     else
                     {
                         Console.WriteLine("Nothing to replace!");
+                        break;
                     }
                    
                 }
@@ -46,6 +47,7 @@
 
                 Console.WriteLine(inputString);
             }
+
             Console.WriteLine($"Your password is: {inputString}");
         }
 
@@ -76,7 +78,6 @@
                     newString += inputString[i];
                    
                 }
-
             }
             return newString;
         }
