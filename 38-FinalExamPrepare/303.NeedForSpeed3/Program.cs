@@ -117,7 +117,7 @@ namespace _303.NeedForSpeed3
 
                 if (totalFuel > 75)
                 {
-                    Console.WriteLine($"{currentCar} refueled with {75 - currentCar.Fuel} liters");
+                    Console.WriteLine($"{currentCar.Model} refueled with {75 - currentCar.Fuel} liters");
                     currentCar.Fuel = 75;
 
                     return;

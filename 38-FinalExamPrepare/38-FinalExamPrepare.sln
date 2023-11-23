@@ -23,7 +23,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "301.SecretChat", "201.Secre
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "301.SecretChatV2", "301.SecretChatV2\301.SecretChatV2.csproj", "{AF70DAEC-3DE6-466B-9317-AFF966EC813F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "302.MirrorWords", "02.MirrorWords\302.MirrorWords.csproj", "{8872765D-1473-4835-8D70-D28A299C7BBA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "302.MirrorWords", "02.MirrorWords\302.MirrorWords.csproj", "{8872765D-1473-4835-8D70-D28A299C7BBA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "303.NeedForSpeed3", "303.NeedForSpeed3\303.NeedForSpeed3.csproj", "{06DEF9B9-6ACD-41A1-8565-416D26A80211}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "401.PasswordReset", "401.PasswordReset\401.PasswordReset.csproj", "{B6AA8995-7CCE-4561-AAAF-B14ECA6FFEE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "402.FancyBarcodes", "402.FancyBarcodes\402.FancyBarcodes.csproj", "{632C10BE-311F-41C4-9830-418E92540840}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +81,18 @@ Global
 		{8872765D-1473-4835-8D70-D28A299C7BBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8872765D-1473-4835-8D70-D28A299C7BBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8872765D-1473-4835-8D70-D28A299C7BBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06DEF9B9-6ACD-41A1-8565-416D26A80211}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06DEF9B9-6ACD-41A1-8565-416D26A80211}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06DEF9B9-6ACD-41A1-8565-416D26A80211}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06DEF9B9-6ACD-41A1-8565-416D26A80211}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6AA8995-7CCE-4561-AAAF-B14ECA6FFEE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6AA8995-7CCE-4561-AAAF-B14ECA6FFEE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6AA8995-7CCE-4561-AAAF-B14ECA6FFEE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6AA8995-7CCE-4561-AAAF-B14ECA6FFEE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{632C10BE-311F-41C4-9830-418E92540840}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{632C10BE-311F-41C4-9830-418E92540840}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{632C10BE-311F-41C4-9830-418E92540840}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{632C10BE-311F-41C4-9830-418E92540840}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
