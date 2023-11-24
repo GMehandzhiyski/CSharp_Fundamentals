@@ -79,13 +79,15 @@ namespace _403._HeroesОfCodeАndLogicVII
                     if (currMp > 200)
                     {
                         currhero.MP = 200;
+                        Console.WriteLine($"{heroName} recharged for {200 - temporaryCurrMP} MP!");
                     }
                     else 
                     {
                         currhero.MP += amountMp;
+                        Console.WriteLine($"{heroName} recharged for {amountMp} MP!");
                     }
 
-                    Console.WriteLine($"{heroName} recharged for {200 - temporaryCurrMP} MP!");
+                    
                 }
                 else if (action == "Heal")
                 {
@@ -112,7 +114,7 @@ namespace _403._HeroesОfCodeАndLogicVII
 
             foreach (var hero in herosList)
             {
-                Console.WriteLine($"{hero.HeroName}\n HP: {hero.HP}\n MP: {hero.MP}");
+                Console.WriteLine($"{hero.HeroName}\n  HP: {hero.HP}\n  MP: {hero.MP}");
 
 
             }

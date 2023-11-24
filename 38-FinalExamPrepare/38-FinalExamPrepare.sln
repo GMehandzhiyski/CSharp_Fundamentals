@@ -19,17 +19,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "202.DestinationMapper(100)"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "203.PlantDiscovery(100)", "103.PlantDiscovery\203.PlantDiscovery(100).csproj", "{E3C1C585-A00C-42F3-A247-CF4C91982E74}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "301.SecretChat", "201.SecretChat\301.SecretChat.csproj", "{6EFDC664-8447-4F39-878E-D2209E0563D8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "301.SecretChat(100)", "201.SecretChat\301.SecretChat(100).csproj", "{6EFDC664-8447-4F39-878E-D2209E0563D8}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "301.SecretChatV2", "301.SecretChatV2\301.SecretChatV2.csproj", "{AF70DAEC-3DE6-466B-9317-AFF966EC813F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "301.SecretChatV2(100)", "301.SecretChatV2\301.SecretChatV2(100).csproj", "{AF70DAEC-3DE6-466B-9317-AFF966EC813F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "302.MirrorWords", "02.MirrorWords\302.MirrorWords.csproj", "{8872765D-1473-4835-8D70-D28A299C7BBA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "302.MirrorWords(100)", "02.MirrorWords\302.MirrorWords(100).csproj", "{8872765D-1473-4835-8D70-D28A299C7BBA}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "303.NeedForSpeed3", "303.NeedForSpeed3\303.NeedForSpeed3.csproj", "{06DEF9B9-6ACD-41A1-8565-416D26A80211}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "303.NeedForSpeed3(100)", "303.NeedForSpeed3\303.NeedForSpeed3(100).csproj", "{06DEF9B9-6ACD-41A1-8565-416D26A80211}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "401.PasswordReset", "401.PasswordReset\401.PasswordReset.csproj", "{B6AA8995-7CCE-4561-AAAF-B14ECA6FFEE5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "401.PasswordReset(100)", "401.PasswordReset\401.PasswordReset(100).csproj", "{B6AA8995-7CCE-4561-AAAF-B14ECA6FFEE5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "402.FancyBarcodes", "402.FancyBarcodes\402.FancyBarcodes.csproj", "{632C10BE-311F-41C4-9830-418E92540840}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "402.FancyBarcodes(100)", "402.FancyBarcodes\402.FancyBarcodes(100).csproj", "{632C10BE-311F-41C4-9830-418E92540840}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "403. HeroesОfCodeАndLogicVII", "403. HeroesОfCodeАndLogicVII\403. HeroesОfCodeАndLogicVII.csproj", "{AF919A89-E5A7-4710-9DAF-AC676B7ED016}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +95,10 @@ Global
 		{632C10BE-311F-41C4-9830-418E92540840}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{632C10BE-311F-41C4-9830-418E92540840}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{632C10BE-311F-41C4-9830-418E92540840}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF919A89-E5A7-4710-9DAF-AC676B7ED016}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF919A89-E5A7-4710-9DAF-AC676B7ED016}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF919A89-E5A7-4710-9DAF-AC676B7ED016}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF919A89-E5A7-4710-9DAF-AC676B7ED016}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
