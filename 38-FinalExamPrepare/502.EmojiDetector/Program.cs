@@ -6,7 +6,7 @@ namespace _502.EmojiDetector
     {
         static void Main(string[] args)
         {
-            string regexPatternEmoji = @"([:*]{2})(?<emoji>[A-z][a-z]{2,})(\1)";
+            string regexPatternEmoji = @"([:]{2}|[*]{2})(?<emoji>[A-Z][a-z]{2,})(\1)";
 
             string regexPatternNumber = @"(?<number>\d{1})";
 
@@ -29,8 +29,9 @@ namespace _502.EmojiDetector
             foreach (Match emoji in matchesEmoji)
             {
                 int emojiCool = 0;
-                string emojiString = (emoji.Groups["emoji"].Value);
                 couterEmoji++;
+                string emojiString = (emoji.Groups["emoji"].Value);
+               
                 foreach (var currChar in emojiString)
                 {
                     int tempEmoji = (int)currChar;
