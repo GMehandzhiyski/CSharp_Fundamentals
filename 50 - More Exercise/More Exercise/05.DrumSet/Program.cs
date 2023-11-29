@@ -39,7 +39,7 @@
             }
 
             Console.WriteLine(string.Join(" ",drumQualityCurr));
-            Console.WriteLine($"Gabsy has {saveMoney:f2}");
+            Console.WriteLine($"Gabsy has {saveMoney:f2}lv.");
         }
     }
 }
