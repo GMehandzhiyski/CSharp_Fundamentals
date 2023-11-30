@@ -39,6 +39,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Text Processing", "Text Pro
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.ExtractPersonInformation", "01.ExtractPersonInformation\01.ExtractPersonInformation.csproj", "{CE1FDFAC-C298-4D89-8952-5B9C2FC175D2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.AsciiSumator", "02.AsciiSumator\02.AsciiSumator.csproj", "{23DC1EFB-CF70-4FCB-B5CE-275CFD24FEAE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -101,6 +103,10 @@ Global
 		{CE1FDFAC-C298-4D89-8952-5B9C2FC175D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CE1FDFAC-C298-4D89-8952-5B9C2FC175D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CE1FDFAC-C298-4D89-8952-5B9C2FC175D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23DC1EFB-CF70-4FCB-B5CE-275CFD24FEAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23DC1EFB-CF70-4FCB-B5CE-275CFD24FEAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23DC1EFB-CF70-4FCB-B5CE-275CFD24FEAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23DC1EFB-CF70-4FCB-B5CE-275CFD24FEAE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -119,6 +125,7 @@ Global
 		{252EA344-0667-4646-82EE-6F8DEBEE963B} = {8A63DBD5-8432-4897-84CA-286A0FE5815C}
 		{6A864D07-01EA-4766-9B9D-571212EA137B} = {8A63DBD5-8432-4897-84CA-286A0FE5815C}
 		{CE1FDFAC-C298-4D89-8952-5B9C2FC175D2} = {A528310B-944D-47E5-BCEA-639EDE9DB8FD}
+		{23DC1EFB-CF70-4FCB-B5CE-275CFD24FEAE} = {A528310B-944D-47E5-BCEA-639EDE9DB8FD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AD145B14-313E-4DFC-AD81-C8F3044F2FD9}
