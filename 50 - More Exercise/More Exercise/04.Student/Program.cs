@@ -22,7 +22,7 @@
 
             foreach (Student currStudent in students.OrderByDescending(s => s.Grade))
             {
-                Console.WriteLine($"{currStudent.FirstName} {currStudent.LastName}: {currStudent.Grade}");
+                Console.WriteLine($"{currStudent.FirstName} {currStudent.LastName}: {currStudent.Grade:f2}");
             }
         }
     }
