@@ -44,6 +44,7 @@ namespace _901.PasswordReset
                     else
                     {
                         Console.WriteLine("Nothing to replace!");
+                        continue;
                     }
                 }
                 else
