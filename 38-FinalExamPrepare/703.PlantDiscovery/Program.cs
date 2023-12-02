@@ -50,6 +50,10 @@
                     {
                         AddRating(plants, plantName, rating);
                     }
+                    else 
+                    {
+                        Console.WriteLine("error");
+                    }
                   
                 }
                 else if (command == "Update")
@@ -60,6 +64,10 @@
                     {
                         UpdateRarity(plants, plantName, newRariry);
                     }
+                    else
+                    {
+                        Console.WriteLine("error");
+                    }
 
                 }
                 else if (command == "Reset")
@@ -68,6 +76,10 @@
                     if (isPlantIsAvalivable)
                     {
                         RemoveRating(plants, plantName);
+                    }
+                    else
+                    {
+                        Console.WriteLine("error");
                     }
 
                 }
@@ -96,7 +108,7 @@
                     }
                 }
                
-                Console.WriteLine($"{currPlant.PlantName}; Rarity: {currPlant.Rarity}; Rating: {averageRating:f2}");
+                Console.WriteLine($" - {currPlant.PlantName}; Rarity: {currPlant.Rarity}; Rating: {averageRating:f2}");
             }
         }
 
