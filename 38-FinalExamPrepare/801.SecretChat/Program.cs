@@ -37,6 +37,7 @@ namespace _801.SecretChat
                     else
                     {
                         Console.WriteLine("error");
+                        continue;
                     }
 
                 }
@@ -50,6 +51,7 @@ namespace _801.SecretChat
                         inputMessage = inputMessage.Replace(oldString, newString);
                     }
                 }
+                Console.WriteLine(inputMessage);
             }
 
             Console.WriteLine($"You have a new text message: {inputMessage}");
