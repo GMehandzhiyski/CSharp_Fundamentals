@@ -6,8 +6,7 @@ namespace _802.MirrorWords
     {
         static void Main(string[] args)
         {
-            string regexPattern = @"([#@]{1})(?<text1>[A-Za-z]{2,})\1{2}(?<text2>[A-Za-z]{2,})\1";
-
+            string regexPattern = @"([#@]{1})(?<text1>[A-Za-z]{3,})\1{2}(?<text2>[A-Za-z]{3,})\1";
             string textString = Console.ReadLine();
 
             MatchCollection Matches = Regex.Matches(textString, regexPattern);
