@@ -51,7 +51,7 @@
                     }
                     else
                     {
-                        Console.WriteLine($"{heroName} does not have enough MP to cast {spellName}");
+                        Console.WriteLine($"{heroName} does not have enough MP to cast {spellName}!");
                     }
 
                 }
@@ -93,8 +93,8 @@
             foreach (var currHero in heros)
             {
                 Console.WriteLine(currHero.HeroName);
-                Console.WriteLine($" HP: {currHero.HitPoint}");
-                Console.WriteLine($" MP: {currHero.ManaPoint}");
+                Console.WriteLine($"  HP: {currHero.HitPoint}");
+                Console.WriteLine($"  MP: {currHero.ManaPoint}");
             }
         }
 
@@ -106,11 +106,11 @@
             if (currHero.HitPoint > 100)
             {
                 currHero.HitPoint = 100;
-                Console.WriteLine($"{currHero.HeroName} recharged for {100 - firstHP} HP!");
+                Console.WriteLine($"{currHero.HeroName} healed for {100 - firstHP} HP!");
             }
             else 
             {
-                Console.WriteLine($"{currHero.HeroName} recharged for {amount} HP!");
+                Console.WriteLine($"{currHero.HeroName} healed for {amount} HP!");
             }
             
         }
@@ -122,11 +122,11 @@
             if (currHero.ManaPoint > 200)
             {
                 currHero.ManaPoint = 200;
-                Console.WriteLine($"{currHero.HeroName} healed for {200 - firtsMP} MP!");
+                Console.WriteLine($"{currHero.HeroName} recharged for {200 - firtsMP} MP!");
             }
             else 
             {
-                Console.WriteLine($"{currHero.HeroName} healed for {amount} MP!");
+                Console.WriteLine($"{currHero.HeroName} recharged for {amount} MP!");
             }
         }
 
