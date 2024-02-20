@@ -8,7 +8,6 @@
             //Dictionary<string, Plant> plants = new Dictionary<string, Plant> ();
 
             int number = int.Parse(Console.ReadLine());
-
             for (int i = 0; i < number; i++)
             {
                 string[] plantsInput = Console.ReadLine()

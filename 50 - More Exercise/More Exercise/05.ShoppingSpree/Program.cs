@@ -1,7 +1,17 @@
 ﻿using System.Net.Http.Headers;
 using System.Xml.Linq;
 using static _05.ShoppingSpree.Person;
-
+/*
+Peter=11;George=4
+Bread=10;Milk=2;
+Peter Bread
+George Milk
+George Milk
+Peter Milk
+END
+ 
+ 
+*/
 namespace _05.ShoppingSpree
 {
     internal class Program
@@ -22,7 +32,7 @@ namespace _05.ShoppingSpree
             AddProduct(productInput, allProducts);
 
             string arguments = string.Empty;
-            while ((arguments = Console.ReadLine()) != "End")
+            while ((arguments = Console.ReadLine()) != "END")
             {
                 string[] argumet = arguments
                     .Split(" ",StringSplitOptions.RemoveEmptyEntries)
@@ -33,7 +43,7 @@ namespace _05.ShoppingSpree
                 Person currPerson = allPersons.Where(p => p.Name == name).FirstOrDefault();
                 Product currProduct = allProducts.Where(p => p.ProductName == product).FirstOrDefault();
 
-                if (currPerson.Money > currProduct.Coast)
+                if (currPerson.Money >= currProduct.Coast)
                 {
                     currPerson.Money -= currProduct.Coast;
                     currPerson.AddProducts(currProduct);
@@ -43,7 +53,7 @@ namespace _05.ShoppingSpree
                 {
                     Console.WriteLine($"{currPerson.Name} can't afford {product}");
                 }
-
+                
             }
 
             PrintAllPerson(allPersons);
@@ -51,23 +61,26 @@ namespace _05.ShoppingSpree
 
         private static void PrintAllPerson(List<Person> allPersons)
         {
-            string printProduct = string.Empty;
+            
             foreach (var currPerson in allPersons)
             {
+                string printProduct = string.Empty;
                 if (currPerson.Products.Count > 0)
                 {
                     foreach (Product currProduct in currPerson.Products)
                     {
-                        printProduct += currProduct;
+                        printProduct += currProduct.ProductName + ", ";
                     }
 
                 }
                 else
                 {
                     Console.WriteLine($"{currPerson.Name} - Nothing bought");
+                    break;
                 }
 
-                Console.WriteLine($"{currPerson.Name} - {printProduct.TrimEnd(',')}");
+                Console.WriteLine($"{currPerson.Name} - {printProduct.TrimEnd(' ', ',')}");
+
             }
         }
 
@@ -112,6 +125,7 @@ namespace _05.ShoppingSpree
         public string Name { get; set; }
 
         public decimal Money { get; set; }
+
         public List<Product> Products;
 
         public void AddProducts(Product product)

@@ -8,7 +8,8 @@ namespace _02.MirrorWords
     {
         static void Main(string[] args)
         {
-            string regexPatern = @"[\@]{1}([A-Za-z]+)[\@]{2}([A-Za-z]+)[\@]{1}|[\#]{1}([A-Za-z]+)[*\#]{2}([A-Za-z]+)[\#]{1}";
+            //string regexPatern = @"[\@]{1}([A-Za-z]+)[\@]{2}([A-Za-z]+)[\@]{1}|[\#]{1}([A-Za-z]+)[*\#]{2}([A-Za-z]+)[\#]{1}";
+            string regexPatern = @"([@#])([A-Za-z]{3,})(\1)(\1)([A-Za-z]{3,})(\1)";
             string inputText = Console.ReadLine();
 
             MatchCollection matches = Regex.Matches(inputText, regexPatern);

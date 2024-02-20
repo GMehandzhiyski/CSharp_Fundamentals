@@ -26,7 +26,7 @@
             foreach (var currBox in boxes.OrderByDescending(b => b.PriceBox))
             {
                 Console.WriteLine(currBox.SerialNumber);
-                Console.WriteLine($"-- {currBox.Item.Name} - {currBox.Item.Price:f2}: {currBox.Quantity}");
+                Console.WriteLine($"-- {currBox.Item.Name} - ${currBox.Item.Price:f2}: {currBox.Quantity}");
                 Console.WriteLine($"-- ${currBox.PriceBox:f2}");
             }
         }

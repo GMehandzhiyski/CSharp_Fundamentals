@@ -47,7 +47,7 @@
                 foreach (var currCar in cars)
                 {
                     if (currCar.Cargo.CargoType == "flamable"
-                        && currCar.Engine.EnginePower > 200)
+                        && currCar.Engine.EnginePower > 250)
                     {
                         Console.WriteLine(currCar.Model);
                     }

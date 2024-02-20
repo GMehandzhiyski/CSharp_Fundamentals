@@ -38,7 +38,7 @@
                     else
                     {
                         Console.WriteLine("Nothing to replace!");
-                        break;
+                        continue;
                     }
                    
                 }

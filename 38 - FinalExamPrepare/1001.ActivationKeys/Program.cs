@@ -24,7 +24,7 @@
                     else
                     {
                         Console.WriteLine("Substring not found!");
-                        continue;
+                       
                     }
                 }
                 else if (command == "Flip")
@@ -55,7 +55,7 @@
                         }
                         activationKey = new string(tempCharArray);
                     }
-                   
+                    PrintFinalResult(activationKey);
 
                 }
                 else if (command == "Slice")
@@ -67,11 +67,18 @@
                     {
                         activationKey = DeleteChars(activationKey, startIndex, endIndex);
                     }
-
+                    PrintFinalResult(activationKey);
                 }
-                Console.WriteLine(activationKey);
+
+               
             }
+
             Console.WriteLine($"Your activation key is: {activationKey}");
+        }
+
+        private static void PrintFinalResult(string? activationKey)
+        {
+            Console.WriteLine(activationKey);
         }
 
         private static bool ContainsString(string activatioKey, string subString)

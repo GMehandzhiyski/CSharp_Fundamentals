@@ -62,7 +62,7 @@ namespace _3.SpeedRacing
         {
             bool isCarCanMove = false;
           
-            if (currCar.Fuel > (currCar.Consumation * amount))
+            if (currCar.Fuel >= (currCar.Consumation * amount))
             {
                 isCarCanMove = true;
             }

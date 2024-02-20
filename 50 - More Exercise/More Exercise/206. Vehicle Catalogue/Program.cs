@@ -22,6 +22,7 @@ namespace _206._Vehicle_Catalogue
 
                 if (type == "car")
                 {
+                    booll isAlivableThisCar
                     Car car = new Car(type, model, color, horsePower);
                     catalog.Car.Add(car);
                 }
@@ -31,8 +32,16 @@ namespace _206._Vehicle_Catalogue
                     catalog.Truck.Add(truck);
                 }
             }
+            
+            while ((argumets = Console.ReadLine()) != "Close the Catalogue")
+            {
+                foreach (Catalog currModel in catalog.Car)
+                {
+                    
+                }
 
-            Console.WriteLine("end");
+
+            }
         }
     }
     public class Catalog

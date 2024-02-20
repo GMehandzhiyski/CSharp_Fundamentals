@@ -10,7 +10,7 @@ namespace _402.FancyBarcodes
         {
             int number = int.Parse(Console.ReadLine());
 
-            string regexPattern = @"[@]{1}[#]+(?<string>[A-Za-z0-9]{5,}[A-Za-z]+[0-9]*[A-Z0-9]*)[@]{1}[#]+";
+            string regexPattern = @"[@]{1}[#]+(?<string>[A-Z][A-Za-z0-9]{4,}[A-Z]{1})[@]{1}[#]+";
 
             for (int i = 0; i < number; i++)
             {
@@ -36,7 +36,7 @@ namespace _402.FancyBarcodes
 
         }
 
-        private static void PrintFinalResul(string productGroup)
+        public static void PrintFinalResul(string productGroup)
         {
             string productGroupFinal = string.Empty;
 

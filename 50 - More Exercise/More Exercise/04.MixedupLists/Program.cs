@@ -1,6 +1,14 @@
 ﻿
 using System.Linq;
-
+/*
+1000.00
+58 65 33
+11
+12
+18
+10
+Hit it again, Gabsy!
+*/
 namespace _04.MixedupLists
 {
     internal class Program
